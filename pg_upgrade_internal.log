@@ -1,0 +1,23 @@
+
+-----------------------------------------------------------------
+  pg_upgrade run on Fri Oct  5 08:20:07 2018
+-----------------------------------------------------------------
+
+check for "/usr/local/Cellar/postgresql@9.6/9.6.5/bin" failed: No such file or directory
+
+
+-----------------------------------------------------------------
+  pg_upgrade run on Fri Oct  5 08:21:41 2018
+-----------------------------------------------------------------
+
+There seems to be a postmaster servicing the new cluster.
+Please shutdown that postmaster and try again.
+
+-----------------------------------------------------------------
+  pg_upgrade run on Fri Oct  5 08:24:50 2018
+-----------------------------------------------------------------
+
+Performing Consistency Checks
+-----------------------------
+Checking cluster versions                                   ok
+The target cluster was not shut down cleanly.

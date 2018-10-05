@@ -1,0 +1,19 @@
+<section>
+
+<h1>Expert List</h1>
+
+<h4>Add a new user</h4>
+<%= form_for @user do |f| %>
+  <%= f.text_field :name %>
+  <%= f.text_field :website_url %>
+  <%= f.submit "Create" %>
+<% end %>
+
+<% @users.each do |u| %>
+  <p>
+    <h4><%= link_to u.name, user_path(u) %>:</h4>
+  </p>
+<% end %>
+
+
+</section>

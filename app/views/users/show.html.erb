@@ -1,0 +1,61 @@
+
+<div>back to: <%= link_to "Expert List", users_path %></div>
+
+<br />
+
+<div>
+  <h2>Name: <%= @user.name %></h2>
+  <h3>Website: <%= @user.website_url %></h3>
+  <h3>Short Url: <%= @user.short_url %></h3>
+  <h3>topics: <%= @user.topics %></h3>
+</div>
+
+<br />
+
+<div>
+  <h4>Search for an Expert by Topic</h4>
+  <%= form_tag user_path, method: "get" do %>
+    <%= text_field_tag :search, params[:search], placeholder: "Search Topics" %>
+    <%= submit_tag "Search", name: nil %>
+  <% end %>
+
+  <% @users.each do |user| %>
+    <p><%= link_to user.name, user_path(user) %> <%= @user.connection(user) %> <%= params[:search] %>.</p>
+  <% end %>
+</div>
+
+<div>
+  <% if @user.friends.present?%>
+    <h4><%= @user.name %>'s Friends</h4>
+    <ul>
+      <% @user.friends.each do |friendship| %>
+        <li>
+          <%= link_to friendship.name, user_path(friendship.id) %>
+          (<%= link_to "Remove Friend", friendship_path(user_id: @user.id, friend_id: friendship.id), method: :delete %>)
+        </li>
+      <% end %>
+    </ul>
+  <% end %>
+<!-- add inverse friends to this loop  -->
+
+  <!-- <% if @user.inverse_friends.present? %>
+    <ul>
+      <% @user.inverse_friends.each do |friendship| %>
+        <li>
+          <%= link_to friendship.name, user_path(friendship.id) %>
+          (<%= link_to "Remove Friend", friendship_path(user_id: @user.id, friend_id: friendship.id), method: :delete %>)
+        </li>
+      <% end %>
+    </ul>
+  <% end %> -->
+</div>
+
+<hr />
+<div>
+<h4>Not Friends With:</h4>
+  <% @people.each do |person| %>
+    <p>
+      <%= link_to person.name, user_path(person) %> (<%= link_to "Add Friend", friendships_path(friend_id: person, user_id: @user.id), method: :post %>)
+    </p>
+  <% end %>
+</div>
