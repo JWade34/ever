@@ -10,16 +10,21 @@ class User < ApplicationRecord
     (self.friends + self.inverse_friends).uniq
   end
 
-  def connection(user) #kevin bacon
+  def connection(user)
     if user.all_friendships.include?(self)
-      " is already your friend, ask them about"
+      " is already your friend."
     else
-      friends = self.all_friendships & user.all_friendships
-      if friends.present?
-        "ask #{friends.map(&:name).join(', or ')} about "
-      else
-        "There is no one with 2 degrees of Kevin Bacon separation regarding... "
-      end
+      degrees_of_separation(user)
+    end
+  end
+
+  #refactor to remove 2 if/else statements to return nil 
+  def degrees_of_separation(user)
+    friends = user.all_friendships & self.all_friendships
+    if friends.present?
+      "#{friends.map(&:name).join(', or ')} knows "
+    else
+       "There are no friends with 2 degrees of separation with "
     end
   end
 

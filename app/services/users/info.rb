@@ -9,10 +9,10 @@ module Users
     def self.get_topics(user: nil)
       begin
         site = HTTParty.get(user.website_url)
-        parse_page = Nokogiri::HTML(site)
-        @header1 = parse_page.css("h1")
-        @header2 = parse_page.css("h2")
-        @header3 = parse_page.css("h3")
+        page = Nokogiri::HTML(site)
+        @header1 = page.css("h1")
+        @header2 = page.css("h2")
+        @header3 = page.css("h3")
         user.topics = get_headers
         user.save!
       rescue

@@ -10,9 +10,9 @@ module Users
       rescue
         user.update! short_url: nil
       end
-
-      #update api key with google config
-      # url = RestClient.post "https://www.googleapis.com/urlshortener/v1/url?key=AIzaSyCPt15Fh2pEJajyBp7r8gcwbOZ8p-qiwLc", "{"longUrl":"http://www.justinmckelvey.com"}", "Accept"=>"application/json", "Accept-Encoding"=>"gzip, deflate", "Content-Length"=>"48", "Content-Type"=>"application/json"
+      
+      #does not like my api key
+      # url = RestClient.post "https://www.googleapis.com/urlshortener/v1/url?key={AIzaSyCPt15Fh2pEJajyBp7r8gcwbOZ8p-qiwLc}", {"longUrl":"http://www.justinmckelvey.com"}, "Accept"=>"application/json", "Accept-Encoding"=>"gzip, deflate", "Content-Length"=>"48", "Content-Type"=>"application/json"
     end
 
   end

@@ -32,7 +32,7 @@ gem 'jbuilder', '~> 2.5'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
-gem 'google_url_shortener'
+gem 'google_url_shortener', '~> 1.1'
 gem 'httparty'
 gem 'nokogiri'
 gem 'pg'

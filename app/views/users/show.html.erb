@@ -20,7 +20,7 @@
   <% end %>
 
   <% @users.each do |user| %>
-    <p><%= link_to user.name, user_path(user) %> <%= @user.connection(user) %> <%= params[:search] %>.</p>
+    <p><%= @user.connection(user) %> <%= link_to user.name, user_path(user) %>.
   <% end %>
 </div>
 
@@ -37,7 +37,6 @@
     </ul>
   <% end %>
 <!-- add inverse friends to this loop  -->
-
   <!-- <% if @user.inverse_friends.present? %>
     <ul>
       <% @user.inverse_friends.each do |friendship| %>
