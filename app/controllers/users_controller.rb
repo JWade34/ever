@@ -11,7 +11,7 @@ class UsersController < ApplicationController
     @people = User.all - @user.all_friendships
 
     if params[:search]
-      @users = User.where("topics like ?", "%#{params[:search]}%")
+      @users = User.where("topics Ilike ?", "%#{params[:search]}%")
     else
       @users = []
     end

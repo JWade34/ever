@@ -1,0 +1,5288 @@
+/* line 3, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/admin/edit.scss */
+.expanded .section-title-text {
+  display: none;
+}
+/* line 6, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/admin/edit.scss */
+.expanded .section-title-input {
+  display: inline-block;
+}
+/* line 10, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/admin/edit.scss */
+.expanded .step-title-text {
+  display: none;
+}
+/* line 13, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/admin/edit.scss */
+.expanded .step-title-input {
+  display: inline-block;
+}
+/* line 18, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/admin/edit.scss */
+.expanded .plus-button {
+  display: none;
+}
+/* line 21, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/admin/edit.scss */
+.expanded .minus-button {
+  display: block;
+}
+/* line 24, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/admin/edit.scss */
+.expanded .panel-body {
+  display: block;
+}
+
+/* line 30, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/admin/edit.scss */
+.collapsed .section-title {
+  display: block;
+}
+/* line 33, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/admin/edit.scss */
+.collapsed .section-input {
+  display: none;
+}
+/* line 37, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/admin/edit.scss */
+.collapsed .step-title {
+  display: inline-block;
+}
+/* line 40, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/admin/edit.scss */
+.collapsed .step-title-input {
+  display: none;
+}
+/* line 43, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/admin/edit.scss */
+.collapsed .minus-button {
+  display: none;
+}
+/* line 46, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/admin/edit.scss */
+.collapsed .plus-button {
+  display: block;
+}
+/* line 49, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/admin/edit.scss */
+.collapsed .panel-body {
+  display: none;
+}
+
+/* line 54, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/admin/edit.scss */
+.form-control-width-sm {
+  display: inline-block !important;
+  width: 100px !important;
+}
+
+/* line 58, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/admin/edit.scss */
+.form-control-width-md {
+  display: inline-block !important;
+  width: 250px !important;
+}
+
+/* line 62, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/admin/edit.scss */
+#template_container {
+  display: none;
+}
+
+/* line 65, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/admin/edit.scss */
+#sections_container > .panel > .panel-body {
+  background-color: #F0F5F9;
+}
+
+/* line 68, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/admin/edit.scss */
+.remove-button {
+  margin-left: 4px;
+}
+/* line 70, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/admin/edit.scss */
+.remove-button i {
+  position: relative;
+  top: -1px;
+}
+
+/* line 76, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/admin/edit.scss */
+div.modal-dialog {
+  top: 100px;
+}
+
+/* line 80, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/admin/edit.scss */
+.hidden {
+  display: none;
+}
+
+/* line 85, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/admin/edit.scss */
+.panel-primary > .panel-heading .panel-icon-button {
+  margin-top: -25px;
+}
+/* line 87, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/admin/edit.scss */
+.panel-primary > .panel-heading .panel-icon-button a {
+  color: white;
+}
+/* line 89, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/admin/edit.scss */
+.panel-primary > .panel-heading .panel-icon-button a :hover {
+  color: #F1F1F1;
+}
+
+/* line 96, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/admin/edit.scss */
+.margin-bottom {
+  margin-bottom: 2rem;
+}
+
+/* line 100, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/admin/edit.scss */
+.container h1.margin-top {
+  margin-top: 1em;
+}
+/* line 6, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/admin/execution_plans.scss */
+html, body {
+  font-family: 'Raleway', sans-serif;
+}
+
+/* line 10, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/admin/execution_plans.scss */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 500;
+}
+
+/* line 14, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/admin/execution_plans.scss */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* line 19, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/admin/execution_plans.scss */
+.table-borderless > tbody > tr > td {
+  border-top: 0px;
+}
+
+/* line 23, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/admin/execution_plans.scss */
+#ep_content {
+  margin: 8em 0em 2em 5em;
+}
+/* line 27, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/admin/execution_plans.scss */
+#ep_content .expanded .section-title-text {
+  display: none;
+}
+/* line 30, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/admin/execution_plans.scss */
+#ep_content .expanded .section-title-input {
+  display: inline-block;
+}
+/* line 34, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/admin/execution_plans.scss */
+#ep_content .expanded .step-title-text {
+  display: none;
+}
+/* line 37, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/admin/execution_plans.scss */
+#ep_content .expanded .step-title-input {
+  display: inline-block;
+}
+/* line 41, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/admin/execution_plans.scss */
+#ep_content .expanded textarea {
+  visibility: inherit !important;
+}
+/* line 45, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/admin/execution_plans.scss */
+#ep_content .expanded .plus-button {
+  display: none;
+}
+/* line 48, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/admin/execution_plans.scss */
+#ep_content .expanded .minus-button {
+  display: block;
+}
+/* line 51, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/admin/execution_plans.scss */
+#ep_content .expanded .panel-body {
+  display: block;
+}
+/* line 57, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/admin/execution_plans.scss */
+#ep_content .collapsed .section-title {
+  display: block;
+}
+/* line 60, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/admin/execution_plans.scss */
+#ep_content .collapsed .section-input {
+  display: none;
+}
+/* line 64, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/admin/execution_plans.scss */
+#ep_content .collapsed textarea {
+  visibility: hidden !important;
+}
+/* line 68, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/admin/execution_plans.scss */
+#ep_content .collapsed .step-title {
+  display: inline-block;
+}
+/* line 71, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/admin/execution_plans.scss */
+#ep_content .collapsed .step-title-input {
+  display: none;
+}
+/* line 74, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/admin/execution_plans.scss */
+#ep_content .collapsed .minus-button {
+  display: none;
+}
+/* line 77, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/admin/execution_plans.scss */
+#ep_content .collapsed .plus-button {
+  display: block;
+}
+/* line 80, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/admin/execution_plans.scss */
+#ep_content .collapsed .panel-body {
+  display: none;
+}
+
+/* line 88, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/admin/execution_plans.scss */
+nav.navbar nav.secondary-nav .lab-logo, nav.navbar nav.secondary-nav .hq-logo {
+  max-width: 2.5em;
+  opacity: 1;
+  transition: .3s;
+}
+/* line 95, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/admin/execution_plans.scss */
+nav.navbar .secondary-nav .navbar-left {
+  display: inline-block;
+}
+/* line 97, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/admin/execution_plans.scss */
+nav.navbar .secondary-nav .navbar-left li {
+  display: inline-block;
+}
+/* line 101, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/admin/execution_plans.scss */
+nav.navbar .secondary-nav .navbar-right {
+  display: inline-block;
+}
+/* line 103, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/admin/execution_plans.scss */
+nav.navbar .secondary-nav .navbar-right li {
+  display: inline-block;
+}
+/* line 107, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/admin/execution_plans.scss */
+nav.navbar .secondary-nav .pull-right {
+  text-align: right;
+}
+
+/* line 112, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/admin/execution_plans.scss */
+#firsttime-wrapper {
+  font-size: 16px;
+  color: white;
+  background: rgba(50, 50, 50, 0.85);
+  padding: 6px 0px;
+  position: fixed;
+  z-index: 9999999;
+  width: 100%;
+  top: 0px;
+}
+/* line 121, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/admin/execution_plans.scss */
+#firsttime-wrapper #firsttime-wrapper .text {
+  font-size: 16px;
+  color: white;
+  float: left;
+}
+/* line 125, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/admin/execution_plans.scss */
+#firsttime-wrapper #firsttime-wrapper .text a {
+  font-style: italic;
+  color: #8ABA49;
+  font-weight: bold;
+  line-height: 30px;
+}
+/* line 132, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/admin/execution_plans.scss */
+#firsttime-wrapper #firsttime-wrapper .text,
+#firsttime-wrapper #firsttime-wrapper .searchform {
+  float: right;
+}
+/* line 136, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/admin/execution_plans.scss */
+#firsttime-wrapper #firsttime-wrapper .searchform label, #firsttime-wrapper #firsttime-wrapper .searchform #searchsubmit {
+  display: none;
+}
+/* line 139, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/admin/execution_plans.scss */
+#firsttime-wrapper #firsttime-wrapper .searchform #s {
+  color: white;
+  background-color: #1e1e1e;
+  background-image: url(images/searchicon.png);
+  background-repeat: no-repeat;
+  background-position: 95% center;
+  border-radius: 25px;
+  font-size: 14px;
+  border: 0px;
+  padding: 5px 10px;
+  width: 200px;
+  font-weight: normal;
+}
+/* Slider */
+
+.slick-slider
+{
+    position: relative;
+
+    display: block;
+    box-sizing: border-box;
+
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+
+    -webkit-touch-callout: none;
+    -khtml-user-select: none;
+    -ms-touch-action: pan-y;
+        touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.slick-list
+{
+    position: relative;
+
+    display: block;
+    overflow: hidden;
+
+    margin: 0;
+    padding: 0;
+}
+.slick-list:focus
+{
+    outline: none;
+}
+.slick-list.dragging
+{
+    cursor: pointer;
+    cursor: hand;
+}
+
+.slick-slider .slick-track,
+.slick-slider .slick-list
+{
+    -webkit-transform: translate3d(0, 0, 0);
+       -moz-transform: translate3d(0, 0, 0);
+        -ms-transform: translate3d(0, 0, 0);
+         -o-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+}
+
+.slick-track
+{
+    position: relative;
+    top: 0;
+    left: 0;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.slick-track:before,
+.slick-track:after
+{
+    display: table;
+
+    content: '';
+}
+.slick-track:after
+{
+    clear: both;
+}
+.slick-loading .slick-track
+{
+    visibility: hidden;
+}
+
+.slick-slide
+{
+    display: none;
+    float: left;
+
+    height: 100%;
+    min-height: 1px;
+}
+[dir='rtl'] .slick-slide
+{
+    float: right;
+}
+.slick-slide img
+{
+    display: block;
+}
+.slick-slide.slick-loading img
+{
+    display: none;
+}
+.slick-slide.dragging img
+{
+    pointer-events: none;
+}
+.slick-initialized .slick-slide
+{
+    display: block;
+}
+.slick-loading .slick-slide
+{
+    visibility: hidden;
+}
+.slick-vertical .slick-slide
+{
+    display: block;
+
+    height: auto;
+
+    border: 1px solid transparent;
+}
+.slick-arrow.slick-hidden {
+    display: none;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ */
+/* line 189, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+h1, h2, h3, h4, h5, h6, p {
+  font-family: Avenir, "Avenir Next", "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+}
+
+/* line 192, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+h1, h2, h3, h4 {
+  font-weight: 300 !important;
+}
+
+/* line 599, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.modal-body {
+  overflow-y: scroll;
+  height: 500px;
+}
+
+/* line 5, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/section.scss */
+.section-welcome {
+  background-image: linear-gradient(90deg, #2a85d8 0%, #3898d3 99%);
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.17);
+  color: #fff;
+}
+
+/* line 10, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/section.scss */
+.section-drk-blue {
+  background-color: #0F4F7A;
+}
+/* line 12, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/section.scss */
+.section-drk-blue h2 {
+  color: #fff;
+}
+
+/* line 16, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/section.scss */
+.section {
+  padding: 3em 0;
+}
+
+/* line 19, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/section.scss */
+.section-white {
+  background: #fff;
+}
+
+/* line 23, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/section.scss */
+.section-lgrey {
+  background: #F6F6F7;
+}
+/* line 25, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/section.scss */
+.section-lgrey h2 {
+  color: #4a4a4a;
+}
+/* line 28, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/section.scss */
+.section-lgrey .progress {
+  border: 1px solid #ababab;
+  width: 60%;
+}
+
+/* line 34, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/section.scss */
+.section-white-border {
+  background: #fff;
+  border-bottom: #D8D8D8 solid 1px;
+}
+
+/* line 38, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/section.scss */
+.section-orange {
+  background-image: linear-gradient(90deg, #FDC523 16%, #FEA20B 98%);
+}
+
+/* line 42, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/section.scss */
+.section-purple {
+  background-image: linear-gradient(-90deg, #4cb1c9 0%, #68c9d1 86%);
+}
+
+/* line 46, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/section.scss */
+.section-green {
+  background-image: linear-gradient(90deg, #da54e1 0%, #9F2AB2 100%);
+}
+
+/* line 50, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/section.scss */
+.section-teal {
+  background-image: linear-gradient(-90deg, #02AC5E 0%, #06AB5F 86%);
+}
+
+/* line 54, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/section.scss */
+.section-red {
+  background-image: linear-gradient(-90deg, #42A4E5 0%, #FEA20B 86%);
+}
+
+/* line 58, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/section.scss */
+.section-royal-blue {
+  background-image: linear-gradient(-90deg, #E32800 0%, #FF4C3B 86%);
+}
+
+/* line 62, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/section.scss */
+.section-blue {
+  background-image: linear-gradient(-90deg, #175da3 0%, #2481c6 86%);
+}
+
+/* line 66, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/section.scss */
+.section-gold {
+  background-image: linear-gradient(-90deg, #9B7AC0 0%, #7857a4 86%);
+}
+
+/* line 70, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/section.scss */
+.page-title {
+  color: #fff;
+}
+
+/* line 74, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/section.scss */
+.current {
+  background-color: #eceeef;
+}
+
+/* line 78, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/section.scss */
+.disabled {
+  background-color: #eceeef;
+}
+
+/* line 82, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/section.scss */
+.margin-auto {
+  margin: 0 auto;
+}
+
+/* line 87, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/section.scss */
+.announcement a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+/* line 93, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/section.scss */
+.disabled-link {
+  pointer-events: none;
+  cursor: default;
+  color: #848484;
+}
+
+/* line 106, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/section.scss */
+.btn-filter {
+  display: block;
+  background-color: transparent;
+  width: 100%;
+}
+
+/* line 112, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/section.scss */
+.btn-filter:hover {
+  background-color: #ececec;
+}
+
+/* line 116, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/section.scss */
+.dropdown-toggle:after {
+  display: none;
+}
+
+/* line 120, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/section.scss */
+#dropdown-text {
+  padding-bottom: 5px;
+  border-bottom: 5px solid #fff;
+}
+
+/* line 125, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/section.scss */
+h2.mt-3px {
+  margin-top: 3px;
+}
+
+/* line 129, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/section.scss */
+.owl-item {
+  max-width: 350px;
+}
+
+/* line 133, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/section.scss */
+.owl-carousel .item.__loading {
+  opacity: 0;
+  transform: translateX(40px);
+  -webkit-transform: translateX(40px);
+}
+
+/* line 142, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/section.scss */
+.email-dropdown {
+  padding: 0 1.5rem;
+}
+
+/*
+Theme Name: Digital Marketer
+Author: Digital Marketer
+Author URI: http://www.digitalmarketer.com
+Description: It's Just Smarter
+Version: 1.0
+*/
+/*@import url('fonts/gotham/gotham.css');*/
+/* line 11, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/style.css.scss */
+html, body {
+  font-family: Avenir, 'Avenir Next', 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+}
+
+/* line 18, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/style.css.scss */
+body.fixed-top-nav {
+  padding-top: 6.5em;
+}
+
+/* line 22, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/style.css.scss */
+a {
+  text-decoration: none;
+  -webkit-transition: color ease .5s;
+  transition: color ease .5s;
+}
+
+/* line 28, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/style.css.scss */
+a:hover, a:focus, a:visited {
+  text-decoration: none;
+  outline: none;
+}
+
+/* line 33, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/style.css.scss */
+.body-wrapper {
+  padding-left: 180px;
+}
+
+/* line 37, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/style.css.scss */
+.navbar {
+  padding: 1.0rem 1rem !important;
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+/* line 43, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/style.css.scss */
+.red {
+  color: #bb0101;
+}
+
+/* line 47, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/style.css.scss */
+.white {
+  color: white;
+}
+
+/* line 51, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/style.css.scss */
+.darkgray {
+  color: #323232;
+}
+
+/* line 55, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/style.css.scss */
+.alert-warning {
+  margin-left: 5em;
+}
+
+/* line 59, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/style.css.scss */
+#wrapper {
+  background-color: #F6F6F7;
+}
+
+/* line 63, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/style.css.scss */
+.page-header {
+  border: none;
+  border-bottom: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+/* line 70, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/style.css.scss */
+.pagination {
+  align-items: center;
+  justify-content: center;
+}
+
+/* line 74, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/style.css.scss */
+.page-header h1.entry-title {
+  font-size: 52px;
+  color: #fff;
+  background: #8ABA49;
+  padding: 2em;
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  text-align: center;
+  margin: 0;
+}
+
+/* line 85, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/style.css.scss */
+.btn-primary {
+  box-shadow: none;
+}
+
+/* line 89, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/style.css.scss */
+.media-card {
+  background: #fff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  border-radius: 0.2rem;
+  transition: all 0.3s ease;
+  margin-bottom: 2em;
+}
+
+/*card*/
+/* line 97, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/style.css.scss */
+.card-deck .card {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 244px;
+  flex: 0 0 244px;
+}
+
+/* line 102, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/style.css.scss */
+.media-card {
+  background: #fff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  border-radius: 0.2rem;
+  margin-bottom: 3em;
+  transition: all 0.3s ease;
+}
+
+/* line 109, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/style.css.scss */
+.fav-heart {
+  position: absolute;
+  bottom: 1em;
+  color: #F8F8F8;
+  font-size: 1.5em;
+}
+
+/* line 115, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/style.css.scss */
+.vertical-hr {
+  border-left: solid 1px #eceeef;
+}
+
+/* line 118, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/style.css.scss */
+.p-y-3 {
+  padding-top: 3rem !important;
+  padding-bottom: 3rem !important;
+}
+
+/* line 122, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/style.css.scss */
+.lead {
+  font-size: 1.25rem;
+  font-weight: 300;
+}
+
+/* line 126, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/style.css.scss */
+.border-top {
+  border-top: solid #eee 1px;
+}
+
+/* line 129, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/style.css.scss */
+.py-half {
+  padding-top: .5em;
+  padding-bottom: .5em;
+}
+
+/* line 133, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/style.css.scss */
+.course-nav .nav-link.active {
+  border-bottom: solid 5px;
+}
+
+/* line 136, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/style.css.scss */
+.course-nav .nav-link {
+  padding-right: 0px;
+  padding-left: 0px;
+  margin-right: 1.5em;
+}
+
+/* line 141, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/style.css.scss */
+.bg-faded {
+  background: #fff;
+}
+
+/* line 145, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/style.css.scss */
+.fa-uncheck {
+  color: #9DCAE9;
+  font-size: 18px;
+}
+
+/* line 149, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/style.css.scss */
+.fa-checked {
+  color: #3E98D4;
+  font-size: 18px;
+  border: solid #9DCAE9 2px;
+  height: 19px;
+  line-height: 16px;
+  border-radius: 50%;
+  width: 19px;
+}
+
+/* line 158, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/style.css.scss */
+.fa-grey {
+  color: #9B9B9B;
+}
+
+/* line 162, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/style.css.scss */
+.card-columns {
+  -webkit-column-count: 4;
+  -moz-column-count: 4;
+  column-count: 4;
+  -webkit-column-gap: 1.25rem;
+  -moz-column-gap: 1.25rem;
+  column-gap: 1.25rem;
+}
+
+/* line 170, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/style.css.scss */
+.item {
+  width: 251px;
+  margin: 0 1em;
+}
+
+/* line 174, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/style.css.scss */
+.login-link {
+  margin-right: 2em;
+}
+
+/* line 177, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/style.css.scss */
+#login-btn {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+/* line 183, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/style.css.scss */
+.btn {
+  cursor: pointer;
+}
+
+/* line 186, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/style.css.scss */
+form#search-container {
+  margin-right: 3em;
+}
+
+/* line 197, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/style.css.scss */
+li.dropdown {
+  align-self: center;
+}
+
+/* line 204, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/style.css.scss */
+.section-footer {
+  background: #fff;
+  color: #4a4a4a;
+  padding: 1em;
+  width: 100%;
+}
+
+/* line 212, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/style.css.scss */
+section {
+  margin: 0 !important;
+}
+
+/* line 216, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/style.css.scss */
+.white-bg {
+  background-color: #fff !important;
+}
+
+/* line 220, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/style.css.scss */
+.footer-gears {
+  position: absolute;
+  top: -5.3em;
+  left: 15em;
+  max-width: 10em;
+  float: right;
+}
+
+/* line 227, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/style.css.scss */
+.section-footer .lead {
+  font-size: 3em;
+  font-weight: 500;
+  margin: 0px;
+  line-height: 42px;
+}
+
+/* line 233, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/style.css.scss */
+.section-footer .lead-sm {
+  font-size: 24px;
+  line-height: 1;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+/* line 240, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/style.css.scss */
+#social-wrapper {
+  float: right;
+  text-align: center;
+  margin-top: 1.5em;
+}
+
+/* line 246, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/style.css.scss */
+.justify-content {
+  justify-content: center;
+}
+
+/* line 250, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/style.css.scss */
+#login-field, #password-field {
+  position: relative;
+}
+
+/* line 254, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/style.css.scss */
+#user_login_email, #user_login_pw {
+  padding-left: 30px;
+}
+
+/* line 258, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/style.css.scss */
+#email-login-icon, #password-login-icon {
+  position: absolute;
+  padding: 10px 10px;
+}
+
+/* line 1, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/forms.css.scss */
+.search {
+  position: relative;
+}
+/* line 3, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/forms.css.scss */
+.search .submit-btn {
+  position: absolute;
+  right: 20px;
+  margin-top: 11px;
+  background-color: #fff;
+  border: 0 none;
+}
+/* line 9, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/forms.css.scss */
+.search .submit-btn i#search-icon {
+  height: 1em;
+}
+/* line 13, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/forms.css.scss */
+.search #search-input {
+  border-radius: 25px;
+  height: 3em;
+  border: none;
+  margin: 0 auto;
+}
+
+/* entypo */
+/* line 22, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/forms.css.scss */
+[class*="entypo-"]:before {
+  font-family: 'entypo', sans-serif;
+  color: #4a4a4a;
+}
+
+/* line 27, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/forms.css.scss */
+.entypo-search:before {
+  top: 0.4em;
+  left: 0px;
+}
+
+/* line 32, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/forms.css.scss */
+#global-search {
+  background-color: #fff;
+  border-radius: 30px;
+  padding: 0 1em;
+  margin-right: 2em;
+  width: 13px;
+  overflow: hidden;
+  position: absolute;
+  height: 30px;
+  right: 50%;
+  -webkit-transition: width .55s ease;
+  -moz-transition: width .55s ease;
+  -ms-transition: width .55s ease;
+  -o-transition: width .55s ease;
+  transition: width .55s ease;
+}
+/* line 47, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/forms.css.scss */
+#global-search #dashboard-search-btn {
+  background-color: #fff;
+  display: inline-block;
+  position: absolute;
+  top: -0.0em;
+  right: -0.2em;
+  border: none;
+}
+/* line 55, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/forms.css.scss */
+#global-search #search-input {
+  color: #4a4a4a;
+  background-color: #F6F6F7;
+  border: none;
+  display: inline-block;
+  border-radius: 20px;
+}
+
+/* line 64, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/forms.css.scss */
+.entypo-search {
+  display: inline-block;
+}
+
+/* line 68, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/forms.css.scss */
+#global-search:hover {
+  width: 300px;
+}
+
+/* line 72, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/forms.css.scss */
+#global-search:hover form input {
+  width: 150%;
+}
+
+/* line 76, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/forms.css.scss */
+#global-search form input:focus,
+#global-search form input:active {
+  outline: none;
+  width: 300px;
+}
+
+/* line 6, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/execution_plans.scss */
+.ep-continue {
+  background: #fff;
+  transition: background-color 1s;
+}
+
+/* line 10, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/execution_plans.scss */
+.ep-cont-icon {
+  color: #fff;
+  background-color: #8aba49;
+  border-color: #8aba49;
+}
+/* line 14, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/execution_plans.scss */
+.ep-cont-icon i {
+  color: #fff;
+}
+
+/* line 18, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/execution_plans.scss */
+.ep-cont-icon:hover {
+  color: #fff;
+  background-color: #7fab43;
+  border-color: #7fab43;
+}
+
+/* line 24, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/execution_plans.scss */
+.ep-image-overview {
+  background: transparent;
+  transition: background-color 1s ease-in-out;
+  -webkit-transition: background-color 1s ease-in-out;
+  -o-transition: background-color 1s ease-in-out;
+  -moz-transition: background-color 1s ease-in-out;
+}
+/* line 30, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/execution_plans.scss */
+.ep-image-overview .fa-play-circle {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 2em;
+  font-weight: 100;
+  margin-top: 1em;
+}
+/* line 35, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/execution_plans.scss */
+.ep-image-overview .fa-play-circle span {
+  font-family: Avenir, 'Avenir Next', 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+/* line 41, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/execution_plans.scss */
+span.cont-learn-span {
+  font-family: Avenir, 'Avenir Next', 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+/* line 45, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/execution_plans.scss */
+.ep-image-overview:hover .ep-play-overlay {
+  display: block;
+  position: absolute;
+  top: 0;
+  width: 255px;
+  height: 162px;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  background-color: rgba(74, 74, 74, 0.7);
+}
+
+/* line 58, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/execution_plans.scss */
+.ep-play-overlay {
+  display: none;
+}
+
+/* line 62, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/execution_plans.scss */
+.table-borderless > tbody > tr > td {
+  border-top: 0px;
+}
+
+/* line 66, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/execution_plans.scss */
+input#search {
+  color: black;
+}
+
+/* line 70, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/execution_plans.scss */
+.ep-content {
+  width: 100%;
+}
+
+/* line 74, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/execution_plans.scss */
+#ep_content {
+  margin-left: 5em;
+}
+/* line 77, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/execution_plans.scss */
+#ep_content .expanded .section-title-text {
+  display: none;
+}
+/* line 80, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/execution_plans.scss */
+#ep_content .expanded .section-title-input {
+  display: inline-block;
+}
+/* line 84, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/execution_plans.scss */
+#ep_content .expanded .step-title-text {
+  display: none;
+}
+/* line 87, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/execution_plans.scss */
+#ep_content .expanded .step-title-input {
+  display: inline-block;
+}
+/* line 92, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/execution_plans.scss */
+#ep_content .expanded .plus-button {
+  display: none;
+}
+/* line 95, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/execution_plans.scss */
+#ep_content .expanded .minus-button {
+  display: block;
+}
+/* line 98, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/execution_plans.scss */
+#ep_content .expanded .panel-body {
+  display: block;
+}
+/* line 104, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/execution_plans.scss */
+#ep_content .collapsed .section-title {
+  display: block;
+}
+/* line 107, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/execution_plans.scss */
+#ep_content .collapsed .section-input {
+  display: none;
+}
+/* line 111, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/execution_plans.scss */
+#ep_content .collapsed .step-title {
+  display: inline-block;
+}
+/* line 114, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/execution_plans.scss */
+#ep_content .collapsed .step-title-input {
+  display: none;
+}
+/* line 117, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/execution_plans.scss */
+#ep_content .collapsed .minus-button {
+  display: none;
+}
+/* line 120, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/execution_plans.scss */
+#ep_content .collapsed .plus-button {
+  display: block;
+}
+/* line 123, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/execution_plans.scss */
+#ep_content .collapsed .panel-body {
+  display: none;
+}
+
+/* line 134, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/execution_plans.scss */
+nav.navbar nav.secondary-nav .lab-logo, nav.navbar nav.secondary-nav .hq-logo {
+  max-width: 2.5em;
+  opacity: 1;
+  transition: .3s;
+}
+
+/* line 146, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/execution_plans.scss */
+#firsttime-wrapper {
+  font-size: 16px;
+  color: white;
+  background: rgba(50, 50, 50, 0.85);
+  padding: 6px 0px;
+  position: fixed;
+  z-index: 9999999;
+  width: 100%;
+  top: 0px;
+}
+
+/* line 156, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/execution_plans.scss */
+#firsttime-wrapper .text {
+  font-size: 16px;
+  color: white;
+  float: left;
+}
+
+/* line 161, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/execution_plans.scss */
+#firsttime-wrapper .text a {
+  font-style: italic;
+  color: #8ABA49;
+  font-weight: bold;
+  line-height: 30px;
+}
+
+/* line 167, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/execution_plans.scss */
+#firsttime-wrapper .searchform {
+  float: right;
+}
+
+/* line 170, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/execution_plans.scss */
+#firsttime-wrapper .searchform label, #firsttime-wrapper .searchform #searchsubmit {
+  display: none;
+}
+
+/* line 173, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/execution_plans.scss */
+#firsttime-wrapper .searchform #s {
+  color: white;
+  background-color: #1e1e1e;
+  background-image: url(images/searchicon.png);
+  background-repeat: no-repeat;
+  background-position: 95% center;
+  border-radius: 25px;
+  font-size: 14px;
+  border: 0px;
+  padding: 5px 10px;
+  width: 200px;
+  font-weight: normal;
+}
+
+/* line 187, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/execution_plans.scss */
+.card-title {
+  margin-top: 1.5rem !important;
+  margin-bottom: 0.5rem !important;
+  cursor: pointer;
+}
+
+/* line 192, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/execution_plans.scss */
+.headshot {
+  max-width: 4em;
+  height: auto;
+}
+
+/* line 197, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/execution_plans.scss */
+.ep-btns {
+  bottom: 3em;
+  background-color: #8aba49;
+  color: #fff;
+}
+/* line 201, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/execution_plans.scss */
+.ep-btns:hover {
+  background-color: #618432;
+}
+
+/* line 206, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/execution_plans.scss */
+.ep-step-bar {
+  height: 4em;
+  line-height: 4em;
+  background-color: rgba(62, 152, 212, 0.7);
+  margin-left: 80px;
+}
+/* line 212, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/execution_plans.scss */
+.ep-step-bar .ep-title {
+  color: white;
+  font-size: 1.3em;
+}
+
+/* line 218, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/execution_plans.scss */
+.card {
+  border: none;
+}
+
+/* line 222, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/execution_plans.scss */
+#next-chevron, #prev-chevron {
+  left: -1em;
+  cursor: pointer;
+  z-index: 1000;
+  height: 100%;
+  min-width: 165px;
+  background-color: #175da3;
+  border-color: #175da3;
+  padding: 1.4em;
+  border-radius: 0;
+}
+
+/* line 234, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/execution_plans.scss */
+#next-chevron:hover, #prev-chevron:hover {
+  background-color: #0b82d4;
+}
+
+/* line 238, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/execution_plans.scss */
+#prev-chevron {
+  float: left;
+}
+
+/* line 243, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/execution_plans.scss */
+#next-chevron {
+  float: right;
+  margin-right: 15px;
+}
+
+/* line 248, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/execution_plans.scss */
+.next-btns {
+  text-align: center;
+  width: 100%;
+}
+
+/* line 253, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/execution_plans.scss */
+.grey-bg {
+  background-color: #f5f5f5;
+}
+
+/* line 257, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/execution_plans.scss */
+.current_step {
+  background-color: #fff;
+}
+
+/* line 261, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/execution_plans.scss */
+.section-title:hover {
+  color: #8aba49;
+  -webkit-transition: color ease .5s;
+  transition: color ease .5s;
+}
+
+/* line 266, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/execution_plans.scss */
+p[aria-expanded=true] .fa-chevron-down {
+  display: none;
+}
+
+/* line 269, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/execution_plans.scss */
+p[aria-expanded=false] .fa-chevron-up {
+  display: none;
+}
+
+/* line 273, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/execution_plans.scss */
+iframe, img {
+  max-width: 100%;
+}
+
+/* line 1, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/sidebar.css.scss */
+.logo {
+  display: block;
+}
+
+/* line 4, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/sidebar.css.scss */
+.gears {
+  display: none;
+}
+
+/* line 8, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/sidebar.css.scss */
+#wrapper.active #sidebar-wrapper {
+  width: 5em;
+  max-width: 5em;
+  min-width: 5em;
+  background: #000;
+  color: #fff;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1000;
+  display: block;
+  overflow-x: hidden;
+  overflow-y: auto;
+  padding: 0px;
+  height: 100%;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+/* line 28, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/sidebar.css.scss */
+#wrapper.active #sidebar-wrapper .nav-item.special-item {
+  border-top: 2px solid lightgrey;
+}
+/* line 31, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/sidebar.css.scss */
+#wrapper.active #sidebar-wrapper .nav-item.current-page {
+  border-right: 6px solid #8aba49;
+  background-color: #2C2C2C;
+}
+/* line 35, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/sidebar.css.scss */
+#wrapper.active #sidebar-wrapper .current-page.home-item .fa-home {
+  background: #3898d3;
+}
+/* line 38, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/sidebar.css.scss */
+#wrapper.active #sidebar-wrapper .current-page.ep-item .fa-list-ul {
+  background: #175da3;
+}
+/* line 41, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/sidebar.css.scss */
+#wrapper.active #sidebar-wrapper .current-page.course-item .fa-pencil {
+  background: #175da3;
+}
+/* line 44, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/sidebar.css.scss */
+#wrapper.active #sidebar-wrapper .current-page.wwn-item .fa-calendar-o {
+  background: #68c9d1;
+}
+/* line 47, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/sidebar.css.scss */
+#wrapper.active #sidebar-wrapper .current-page.oh-item .fa-clock-o {
+  background: #da54e1;
+}
+/* line 50, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/sidebar.css.scss */
+#wrapper.active #sidebar-wrapper .current-page.toolbox-item .fa-wrench {
+  background: #FEA20B;
+}
+/* line 53, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/sidebar.css.scss */
+#wrapper.active #sidebar-wrapper .current-page.deals-item .fa-dollar {
+  background: #06AB5F;
+}
+/* line 56, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/sidebar.css.scss */
+#wrapper.active #sidebar-wrapper .current-page.favs-item .fa-heart {
+  background: #FF4C3B;
+}
+/* line 59, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/sidebar.css.scss */
+#wrapper.active #sidebar-wrapper .current-page.elite-item .fa-star {
+  background: #7857a4;
+}
+/* line 62, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/sidebar.css.scss */
+#wrapper.active #sidebar-wrapper .current-page.community-item .fa-users {
+  background: #71B22A;
+}
+/* line 65, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/sidebar.css.scss */
+#wrapper.active #sidebar-wrapper .nav-item {
+  padding: 0 0.5em 0 0;
+  font-weight: 200;
+}
+/* line 68, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/sidebar.css.scss */
+#wrapper.active #sidebar-wrapper .nav-link {
+  color: #fff;
+  font-weight: 200;
+}
+/* line 71, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/sidebar.css.scss */
+#wrapper.active #sidebar-wrapper .nav-link:hover {
+  color: #8aba49;
+}
+/* line 74, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/sidebar.css.scss */
+#wrapper.active #sidebar-wrapper .fa.fa-fw {
+  -webkit-border-radius: 1100%;
+  -moz-border-radius: 100%;
+  -o-border-radius: 100%;
+  border-radius: 100%;
+  color: #fff;
+  text-align: center;
+  font-weight: 200;
+  display: inline-block;
+  vertical-align: middle;
+  width: 35px;
+  height: 35px;
+  padding-top: 6px;
+  -moz-transition: .5s;
+  -webkit-transition: .5s;
+  -o-transition: .5s;
+  transition: .5s;
+  background: none;
+}
+/* line 92, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/sidebar.css.scss */
+#wrapper.active #sidebar-wrapper .home-item:hover .fa-home {
+  background: #3898d3;
+}
+/* line 95, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/sidebar.css.scss */
+#wrapper.active #sidebar-wrapper .ep-item:hover .fa-list-ul {
+  background: #175da3;
+}
+/* line 98, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/sidebar.css.scss */
+#wrapper.active #sidebar-wrapper .course-item:hover .fa-pencil {
+  background: #175da3;
+}
+/* line 101, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/sidebar.css.scss */
+#wrapper.active #sidebar-wrapper .wwn-item:hover .fa-calendar-o {
+  background: #68c9d1;
+}
+/* line 104, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/sidebar.css.scss */
+#wrapper.active #sidebar-wrapper .oh-item:hover .fa-clock-o {
+  background: #da54e1;
+}
+/* line 107, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/sidebar.css.scss */
+#wrapper.active #sidebar-wrapper .community-item:hover .fa-users {
+  background: #71B22A;
+}
+/* line 110, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/sidebar.css.scss */
+#wrapper.active #sidebar-wrapper .toolbox-item:hover .fa-wrench {
+  background: #FEA20B;
+}
+/* line 113, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/sidebar.css.scss */
+#wrapper.active #sidebar-wrapper .deals-item:hover .fa-dollar {
+  background: #06AB5F;
+}
+/* line 116, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/sidebar.css.scss */
+#wrapper.active #sidebar-wrapper .favs-item:hover .fa-heart {
+  background: #FF4C3B;
+}
+/* line 119, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/sidebar.css.scss */
+#wrapper.active #sidebar-wrapper .elite-item:hover .fa-star {
+  background: #7857a4;
+}
+/* line 122, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/sidebar.css.scss */
+#wrapper.active #sidebar-wrapper i {
+  text-align: center;
+  margin-right: 0px !important;
+}
+/* line 126, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/sidebar.css.scss */
+#wrapper.active #sidebar-wrapper .sidebar-icon-text {
+  display: none;
+}
+/* line 129, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/sidebar.css.scss */
+#wrapper.active #sidebar-wrapper .logo {
+  display: none;
+}
+/* line 132, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/sidebar.css.scss */
+#wrapper.active #sidebar-wrapper .gears {
+  display: block;
+  max-width: 45px;
+  margin: 1em auto 0;
+}
+/* line 137, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/sidebar.css.scss */
+#wrapper.active #sidebar-wrapper .nav-link {
+  padding: 1em !important;
+  text-align: center;
+}
+/* line 142, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/sidebar.css.scss */
+#wrapper.active #sidebar-wrapper .sidebar-content-wrapper.active .sidebar-icon-text {
+  display: none;
+}
+/* line 147, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/sidebar.css.scss */
+#wrapper.active #sidebar-wrapper .sidebar-content-wrapper.inactive .sidebar-icon-text {
+  display: none !important;
+}
+
+/* line 154, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/sidebar.css.scss */
+.hidden-wrapper {
+  display: none !important;
+}
+
+/* line 159, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/sidebar.css.scss */
+#wrapper .sidebar {
+  background: #000;
+  color: #fff;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1000;
+  display: block;
+  overflow-x: hidden;
+  overflow-y: auto;
+  padding: 0px;
+  max-width: 300px;
+  min-width: 175px;
+  height: 100%;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+/* line 178, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/sidebar.css.scss */
+#wrapper .sidebar .nav-item.current-page {
+  border-right: 6px solid #8aba49;
+  background-color: #2C2C2C;
+}
+/* line 182, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/sidebar.css.scss */
+#wrapper .sidebar .special-item {
+  border-top: 2px solid #8e8e8e;
+}
+/* line 185, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/sidebar.css.scss */
+#wrapper .sidebar .current-page.home-item .fa-home {
+  background: #3898d3;
+}
+/* line 188, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/sidebar.css.scss */
+#wrapper .sidebar .current-page.ep-item .fa-list-ul {
+  background: #175da3;
+}
+/* line 191, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/sidebar.css.scss */
+#wrapper .sidebar .current-page.course-item .fa-pencil {
+  background: #175da3;
+}
+/* line 194, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/sidebar.css.scss */
+#wrapper .sidebar .current-page.wwn-item .fa-calendar-o {
+  background: #68c9d1;
+}
+/* line 197, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/sidebar.css.scss */
+#wrapper .sidebar .current-page.oh-item .fa-clock-o {
+  background: #da54e1;
+}
+/* line 200, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/sidebar.css.scss */
+#wrapper .sidebar .current-page.toolbox-item .fa-wrench {
+  background: #FEA20B;
+}
+/* line 203, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/sidebar.css.scss */
+#wrapper .sidebar .current-page.deals-item .fa-dollar {
+  background: #06AB5F;
+}
+/* line 206, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/sidebar.css.scss */
+#wrapper .sidebar .current-page.favs-item .fa-heart {
+  background: #FF4C3B;
+}
+/* line 209, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/sidebar.css.scss */
+#wrapper .sidebar .current-page.elite-item .fa-star {
+  background: #7857a4;
+}
+/* line 212, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/sidebar.css.scss */
+#wrapper .sidebar .nav-item {
+  padding: 0 0.5em 0 0;
+}
+/* line 215, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/sidebar.css.scss */
+#wrapper .sidebar .nav-link {
+  color: #fff;
+}
+/* line 218, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/sidebar.css.scss */
+#wrapper .sidebar .nav-link:hover {
+  color: #8aba49;
+}
+/* line 221, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/sidebar.css.scss */
+#wrapper .sidebar .fa.fa-fw {
+  -webkit-border-radius: 1100%;
+  -moz-border-radius: 100%;
+  -o-border-radius: 100%;
+  border-radius: 100%;
+  color: #fff;
+  text-align: center;
+  display: inline-block;
+  vertical-align: middle;
+  width: 35px;
+  height: 35px;
+  padding-top: 6px;
+  -moz-transition: .5s;
+  -webkit-transition: .5s;
+  -o-transition: .5s;
+  transition: .5s;
+  background: none;
+}
+/* line 239, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/sidebar.css.scss */
+#wrapper .sidebar .home-item:hover .fa-home {
+  background: #3898d3;
+}
+/* line 242, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/sidebar.css.scss */
+#wrapper .sidebar .ep-item:hover .fa-list-ul {
+  background: #175da3;
+}
+/* line 245, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/sidebar.css.scss */
+#wrapper .sidebar .course-item:hover .fa-pencil {
+  background: #175da3;
+}
+/* line 248, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/sidebar.css.scss */
+#wrapper .sidebar .wwn-item:hover .fa-calendar-o {
+  background: #68c9d1;
+}
+/* line 251, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/sidebar.css.scss */
+#wrapper .sidebar .oh-item:hover .fa-clock-o {
+  background: #da54e1;
+}
+/* line 254, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/sidebar.css.scss */
+#wrapper .sidebar .community-item:hover .fa-users {
+  background: #71B22A;
+}
+/* line 257, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/sidebar.css.scss */
+#wrapper .sidebar .toolbox-item:hover .fa-wrench {
+  background: #FEA20B;
+}
+/* line 260, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/sidebar.css.scss */
+#wrapper .sidebar .deals-item:hover .fa-dollar {
+  background: #06AB5F;
+}
+/* line 263, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/sidebar.css.scss */
+#wrapper .sidebar .favs-item:hover .fa-heart {
+  background: #FF4C3B;
+}
+/* line 266, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/sidebar.css.scss */
+#wrapper .sidebar .elite-item:hover .fa-star {
+  background: #7857a4;
+}
+
+/* line 272, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/sidebar.css.scss */
+.nav-link {
+  padding: 1em !important;
+}
+
+/* line 276, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/sidebar.css.scss */
+/* #collapseLibrary {
+  list-style: none;
+} */
+
+/* line 280, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/sidebar.css.scss */
+.sidebar-content-wrapper.active {
+  margin-top: 20px !important;
+}
+/* line 282, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/sidebar.css.scss */
+.sidebar-content-wrapper.active .sidebar-icon-text {
+  text-transform: uppercase;
+  font-weight: 200 !important;
+}
+
+/* line 287, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/sidebar.css.scss */
+.sidebar-content-wrapper.inactive {
+  margin-top: 70px;
+  transition: margin 0.1s ease;
+  -webkit-transition: margin 0.1s ease;
+  -moz-animation: margin 0.1s ease;
+  -o-animation: margin 0.1s ease;
+}
+/* line 293, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/sidebar.css.scss */
+.sidebar-content-wrapper.inactive .sidebar-icon-text {
+  display: inline-block !important;
+  text-transform: uppercase;
+  font-weight: 200 !important;
+}
+
+/* line 299, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/sidebar.css.scss */
+.sidebar-image-wrapper {
+  text-align: center;
+}
+
+/* line 303, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/sidebar.css.scss */
+.active-img {
+  min-height: 50px;
+}
+
+/* line 307, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/sidebar.css.scss */
+#wrapper.active {
+  position: relative;
+  min-height: 100%;
+}
+
+/* line 1, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/dashboard.css.scss */
+.small-bottom-margin {
+  margin-bottom: 30px;
+}
+
+/* line 5, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/dashboard.css.scss */
+.no-bottom-margin {
+  margin-bottom: 0px;
+}
+
+/* line 9, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/dashboard.css.scss */
+.dashboard-right-column {
+  padding: 0px 20px 0px 80px;
+}
+/* line 13, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/dashboard.css.scss */
+.dashboard-right-column .image.on-demand:hover .join-workshop {
+  opacity: 0.5;
+}
+
+/* line 20, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/dashboard.css.scss */
+.tiny-space {
+  padding-top: 13px;
+}
+
+/* line 24, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/dashboard.css.scss */
+.join-workshop {
+  border: 2px solid #fff;
+  background-color: #fff;
+  color: #4A4A4A !important;
+  padding: 5px 10px;
+  font-size: 22px;
+  cursor: pointer;
+}
+/* line 31, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/dashboard.css.scss */
+.join-workshop:hover {
+  background-color: #fff;
+  color: #4A4A4A;
+}
+/* line 35, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/dashboard.css.scss */
+.join-workshop.you-in {
+  background-color: #7857a4;
+  border-color: #7857a4;
+  color: #fff !important;
+}
+/* line 40, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/dashboard.css.scss */
+.join-workshop.you-in:hover {
+  background-color: #7857a4;
+  border-color: #7857a4;
+  color: #fff;
+}
+
+/* line 48, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/dashboard.css.scss */
+.crop {
+  width: 100%;
+  height: 150px;
+  overflow: hidden;
+}
+
+/* line 54, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/dashboard.css.scss */
+.dashboard .card-columns {
+  column-count: 4;
+}
+
+/* line 59, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/dashboard.css.scss */
+.owl-prev {
+  position: absolute;
+  left: -50px;
+  top: 135px;
+}
+
+/* line 65, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/dashboard.css.scss */
+.owl-next {
+  position: absolute;
+  right: -50px;
+  top: 135px;
+}
+
+/* line 71, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/dashboard.css.scss */
+.item {
+  width: 251px;
+  margin: 0 1em;
+}
+
+/* line 75, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/dashboard.css.scss */
+.owl-theme .owl-nav {
+  margin-top: 10px;
+  text-align: center;
+}
+
+/* line 79, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/dashboard.css.scss */
+.owl-theme .owl-nav [class*='owl-'] {
+  color: #c6c6c6;
+  background-color: #F7F6EE;
+  font-size: 48px;
+  margin: 5px;
+  display: inline-block;
+  cursor: pointer;
+  background: transparent;
+}
+
+/* line 88, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/dashboard.css.scss */
+.owl-theme .owl-nav [class*='owl-']:hover {
+  background: transparent;
+  color: #4A4A4A;
+  text-decoration: none;
+}
+
+/* line 124, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/dashboard.css.scss */
+.elite-db-container {
+  background-color: #F6F6F7;
+  display: flex;
+}
+/* line 127, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/dashboard.css.scss */
+.elite-db-container .media-card {
+  margin-bottom: 2em;
+}
+/* line 130, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/dashboard.css.scss */
+.elite-db-container .workshop-row {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 2em;
+}
+/* line 134, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/dashboard.css.scss */
+.elite-db-container .workshop-row a {
+  font-size: 1.25rem;
+}
+/* line 138, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/dashboard.css.scss */
+.elite-db-container .challenge-row {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 2em;
+}
+/* line 142, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/dashboard.css.scss */
+.elite-db-container .challenge-row a {
+  font-size: 1.25rem;
+}
+/* line 146, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/dashboard.css.scss */
+.elite-db-container .slack-row {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 2em;
+}
+
+/* line 153, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/dashboard.css.scss */
+.elite-ep-container {
+  background-color: #fff;
+}
+
+/* line 158, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/dashboard.css.scss */
+.engage-card .card-footer {
+  background-color: #fff;
+}
+/* line 160, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/dashboard.css.scss */
+.engage-card .card-footer .workshop-join-btn {
+  color: #fff;
+  background-color: #8aba49;
+  border-color: #8aba49;
+  padding: 1em 4em;
+  font-size: 1.2rem;
+  max-width: 100%;
+}
+/* line 168, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/dashboard.css.scss */
+.engage-card .card-footer .workshop-join-btn:hover {
+  color: #fff;
+  background-color: #7fab43;
+  border-color: #7fab43;
+}
+/* line 177, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/dashboard.css.scss */
+.engage-card .slack-feed {
+  max-height: 333px;
+  overflow: scroll;
+}
+/* line 180, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/dashboard.css.scss */
+.engage-card .slack-feed .slack-user-image {
+  margin-top: 10px;
+  height: auto;
+  padding-right: 1em;
+}
+/* line 185, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/dashboard.css.scss */
+.engage-card .slack-feed .user-time-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+/* line 198, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/dashboard.css.scss */
+.watch-card .challenge-banner {
+  padding: 0.5em 0;
+  width: 100%;
+  background-color: rgba(255, 0, 0, 0.9);
+}
+
+/* line 205, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/dashboard.css.scss */
+.live-featured-workshop {
+  background-color: red;
+  padding: 0.1em 1.5em;
+  display: inline-block;
+  margin-bottom: 1em;
+  position: absolute;
+  z-index: 100;
+  top: 10px;
+}
+/* line 213, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/dashboard.css.scss */
+.live-featured-workshop p {
+  color: #fff;
+  margin-bottom: 0;
+}
+
+/* line 219, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/dashboard.css.scss */
+.bookmark-tab {
+  position: absolute;
+  z-index: 10000000;
+  color: #fff;
+  right: 29px;
+  bottom: 4px;
+}
+
+/* line 227, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/dashboard.css.scss */
+.bookmark-tab-large {
+  right: 32px !important;
+  bottom: 24px !important;
+}
+
+/* line 232, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/dashboard.css.scss */
+.bookmark-tab > a:hover,
+.bookmark-tab > a:active,
+.bookmark-tab > a:focus {
+  color: #fff !important;
+}
+
+/* line 239, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/dashboard.css.scss */
+.slick-navigation {
+  position: absolute;
+  top: 9.5em;
+  z-index: 100000;
+  cursor: pointer;
+  color: #4A4A4A;
+  background-color: #fff;
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  line-height: 40px;
+  text-align: center;
+}
+
+/* line 255, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/dashboard.css.scss */
+.slick-prev {
+  display: none !important;
+}
+
+/* line 259, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/dashboard.css.scss */
+.slick-next {
+  right: -1em;
+  padding-top: 1px;
+  padding-left: 2px;
+}
+
+/* line 265, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/dashboard.css.scss */
+.no-right-padding {
+  padding-right: 0 !important;
+}
+
+/* line 269, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/dashboard.css.scss */
+.no-left-padding {
+  padding-left: 0 !important;
+}
+
+/* line 273, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/dashboard.css.scss */
+.padding-bottom-tiny {
+  padding-bottom: 1%;
+}
+
+/* line 278, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/dashboard.css.scss */
+.grid {
+  position: relative;
+  margin: 0 auto;
+  max-width: 1000px;
+  list-style: none;
+  text-align: center;
+}
+
+/* line 286, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/dashboard.css.scss */
+.grid figure {
+  position: relative;
+  float: left;
+  overflow: hidden;
+  margin: 0 1%;
+  text-align: center;
+  cursor: pointer;
+}
+
+/* line 295, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/dashboard.css.scss */
+.grid figure img {
+  position: relative;
+  display: block;
+  opacity: 0.8;
+  width: 100%;
+  height: auto;
+}
+
+/* line 303, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/dashboard.css.scss */
+.grid figure figcaption {
+  padding: 2em;
+  color: #fff;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+/* line 310, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/dashboard.css.scss */
+.grid figure figcaption h2 {
+  font-size: 1.2em;
+}
+
+/* line 314, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/dashboard.css.scss */
+.grid figure figcaption p {
+  text-transform: uppercase;
+  font-size: 0.9em;
+}
+
+/* line 319, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/dashboard.css.scss */
+.grid figure figcaption::before,
+.grid figure figcaption::after {
+  pointer-events: none;
+}
+
+/* line 324, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/dashboard.css.scss */
+.grid figure figcaption,
+.grid figure figcaption > a {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* line 333, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/dashboard.css.scss */
+.grid figure figcaption > a {
+  z-index: 1000;
+  text-indent: 200%;
+  white-space: nowrap;
+  font-size: 0;
+  opacity: 0;
+}
+
+/* line 341, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/dashboard.css.scss */
+.grid figure h2 {
+  word-spacing: -0.15em;
+  font-weight: 300;
+}
+
+/* line 346, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/dashboard.css.scss */
+.grid figure h2 span {
+  font-weight: 800;
+}
+
+/* line 350, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/dashboard.css.scss */
+.grid figure h2,
+.grid figure p {
+  margin: 0;
+}
+
+/* line 355, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/dashboard.css.scss */
+.grid figure p {
+  letter-spacing: 1px;
+  font-size: 68.5%;
+}
+
+/* line 361, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/dashboard.css.scss */
+figure.effect-lily img {
+  max-width: none;
+  -webkit-transition: opacity 1s, -webkit-transform 1s;
+  transition: opacity 1s, transform 1s;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+/* line 369, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/dashboard.css.scss */
+figure.effect-lily figcaption::before {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 81%;
+  background: -webkit-linear-gradient(top, rgba(55, 60, 65, 0) 0%, rgba(55, 60, 65, 0.9) 75%);
+  background: linear-gradient(to bottom, rgba(55, 60, 65, 0) 0%, rgba(55, 60, 65, 0.9) 75%);
+  content: '';
+  opacity: 1;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+
+/* line 384, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/dashboard.css.scss */
+figure.effect-lily figcaption::before,
+figure.effect-lily p {
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+}
+
+/* line 390, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/dashboard.css.scss */
+figure.effect-lily:hover figcaption::before,
+figure.effect-lily:hover p {
+  opacity: 0.4;
+}
+
+/* line 396, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/dashboard.css.scss */
+figure.effect-lily figcaption {
+  text-align: left;
+}
+
+/* line 400, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/dashboard.css.scss */
+figure.effect-lily figcaption > div {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 1em;
+  width: 100%;
+}
+
+/* line 408, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/dashboard.css.scss */
+figure.effect-lily h2 {
+  -webkit-transition: -webkit-transform 0.35s;
+  transition: transform 0.35s;
+}
+
+/* line 413, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/dashboard.css.scss */
+figure.effect-lily p {
+  color: rgba(255, 255, 255, 0.8);
+  opacity: 0.8;
+  -webkit-transition: opacity 0.2s, -webkit-transform 0.35s;
+  transition: opacity 0.2s, transform 0.35s;
+}
+
+/* line 420, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/dashboard.css.scss */
+figure.effect-lily:hover img,
+figure.effect-lily:hover p {
+  opacity: 1;
+}
+
+/* line 425, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/dashboard.css.scss */
+figure.effect-lily:hover p {
+  -webkit-transition-delay: 0.05s;
+  transition-delay: 0.05s;
+  -webkit-transition-duration: 0.35s;
+  transition-duration: 0.35s;
+}
+
+/* line 432, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/dashboard.css.scss */
+figure.effect-lily:hover img {
+  -webkit-transform: scale3d(1.1, 1.1, 1);
+  transform: scale3d(1.1, 1.1, 1);
+}
+
+/* line 1, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/favorites.scss */
+.cursor-default {
+  cursor: default !important;
+}
+
+/* line 1, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/office_hours.scss */
+.oh-card:before {
+  -webkit-transform: translateX(100%);
+  transform: translateX(80%);
+  /* background-color: #fff; */
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.25); */
+  border-radius: 30px;
+  font-size: 22px;
+  font-style: normal;
+  left: 60%;
+  line-height: 60px;
+  position: absolute;
+  top: -10px;
+  width: 60px;
+  content: "\f017";
+  font-family: 'FontAwesome';
+  text-align: center;
+}
+
+/* Layout helpers
+----------------------------------*/
+/* line 4, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/profiles.css.scss */
+.ui-helper-hidden {
+  display: none;
+}
+
+/* line 7, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/profiles.css.scss */
+.ui-helper-hidden-accessible {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+/* line 17, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/profiles.css.scss */
+.ui-helper-reset {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  line-height: 1.3;
+  text-decoration: none;
+  font-size: 100%;
+  list-style: none;
+}
+
+/* line 27, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/profiles.css.scss */
+.ui-helper-clearfix:before,
+.ui-helper-clearfix:after {
+  content: "";
+  display: table;
+  border-collapse: collapse;
+}
+
+/* line 33, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/profiles.css.scss */
+.ui-helper-clearfix:after {
+  clear: both;
+}
+
+/* line 36, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/profiles.css.scss */
+.ui-helper-clearfix {
+  min-height: 0;
+  /* support: IE7 */
+}
+
+/* line 39, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/profiles.css.scss */
+.ui-helper-zfix {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  opacity: 0;
+  filter: Alpha(Opacity=0);
+  /* support: IE8 */
+}
+
+/* line 49, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/profiles.css.scss */
+.ui-front {
+  z-index: 100;
+}
+
+/* Interaction Cues
+----------------------------------*/
+/* line 56, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/profiles.css.scss */
+.ui-state-disabled {
+  cursor: default !important;
+}
+
+/* Icons
+----------------------------------*/
+/* states and images */
+/* line 65, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/profiles.css.scss */
+.ui-icon {
+  display: block;
+  text-indent: -99999px;
+  overflow: hidden;
+  background-repeat: no-repeat;
+}
+
+/* Misc visuals
+----------------------------------*/
+/* Overlays */
+/* line 77, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/profiles.css.scss */
+.ui-widget-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* line 84, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/profiles.css.scss */
+.ui-accordion .ui-accordion-header {
+  display: block;
+  cursor: pointer;
+  position: relative;
+  margin: 2px 0 0 0;
+  padding: .5em .5em .5em .7em;
+  min-height: 0;
+  /* support: IE7 */
+  font-size: 100%;
+}
+
+/* line 93, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/profiles.css.scss */
+.ui-accordion .ui-accordion-icons {
+  padding-left: 2.2em;
+}
+
+/* line 96, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/profiles.css.scss */
+.ui-accordion .ui-accordion-icons .ui-accordion-icons {
+  padding-left: 2.2em;
+}
+
+/* line 99, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/profiles.css.scss */
+.ui-accordion .ui-accordion-header .ui-accordion-header-icon {
+  position: absolute;
+  left: .5em;
+  top: 50%;
+  margin-top: -8px;
+}
+
+/* line 105, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/profiles.css.scss */
+.ui-accordion .ui-accordion-content {
+  padding: 1em 2.2em;
+  border-top: 0;
+  overflow: auto;
+}
+
+/* line 110, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/profiles.css.scss */
+.ui-autocomplete {
+  position: absolute;
+  top: 0;
+  left: 0;
+  cursor: default;
+}
+
+/* line 116, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/profiles.css.scss */
+.ui-button {
+  display: inline-block;
+  position: relative;
+  padding: 0;
+  line-height: normal;
+  margin-right: .1em;
+  cursor: pointer;
+  vertical-align: middle;
+  text-align: center;
+  overflow: visible;
+  /* removes extra width in IE */
+}
+
+/* line 127, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/profiles.css.scss */
+.ui-button,
+.ui-button:link,
+.ui-button:visited,
+.ui-button:hover,
+.ui-button:active {
+  text-decoration: none;
+}
+
+/* to make room for the icon, a width needs to be set here */
+/* line 135, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/profiles.css.scss */
+.ui-button-icon-only {
+  width: 2.2em;
+}
+
+/* button elements seem to need a little more width */
+/* line 139, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/profiles.css.scss */
+button.ui-button-icon-only {
+  width: 2.4em;
+}
+
+/* line 142, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/profiles.css.scss */
+.ui-button-icons-only {
+  width: 3.4em;
+}
+
+/* line 145, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/profiles.css.scss */
+button.ui-button-icons-only {
+  width: 3.7em;
+}
+
+/* button text element */
+/* line 150, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/profiles.css.scss */
+.ui-button .ui-button-text {
+  display: block;
+  line-height: normal;
+}
+
+/* line 154, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/profiles.css.scss */
+.ui-button-text-only .ui-button-text {
+  padding: .4em 1em;
+}
+
+/* line 157, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/profiles.css.scss */
+.ui-button-icon-only .ui-button-text,
+.ui-button-icons-only .ui-button-text {
+  padding: .4em;
+  text-indent: -9999999px;
+}
+
+/* line 162, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/profiles.css.scss */
+.ui-button-text-icon-primary .ui-button-text,
+.ui-button-text-icons .ui-button-text {
+  padding: .4em 1em .4em 2.1em;
+}
+
+/* line 166, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/profiles.css.scss */
+.ui-button-text-icon-secondary .ui-button-text,
+.ui-button-text-icons .ui-button-text {
+  padding: .4em 2.1em .4em 1em;
+}
+
+/* line 170, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/profiles.css.scss */
+.ui-button-text-icons .ui-button-text {
+  padding-left: 2.1em;
+  padding-right: 2.1em;
+}
+
+/* no icon support for input elements, provide padding by default */
+/* line 175, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/profiles.css.scss */
+input.ui-button {
+  padding: .4em 1em;
+}
+
+/* button icon element(s) */
+/* line 180, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/profiles.css.scss */
+.ui-button-icon-only .ui-icon,
+.ui-button-text-icon-primary .ui-icon,
+.ui-button-text-icon-secondary .ui-icon,
+.ui-button-text-icons .ui-icon,
+.ui-button-icons-only .ui-icon {
+  position: absolute;
+  top: 50%;
+  margin-top: -8px;
+}
+
+/* line 189, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/profiles.css.scss */
+.ui-button-icon-only .ui-icon {
+  left: 50%;
+  margin-left: -8px;
+}
+
+/* line 193, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/profiles.css.scss */
+.ui-button-text-icon-primary .ui-button-icon-primary,
+.ui-button-text-icons .ui-button-icon-primary,
+.ui-button-icons-only .ui-button-icon-primary {
+  left: .5em;
+}
+
+/* line 198, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/profiles.css.scss */
+.ui-button-text-icon-secondary .ui-button-icon-secondary,
+.ui-button-text-icons .ui-button-icon-secondary,
+.ui-button-icons-only .ui-button-icon-secondary {
+  right: .5em;
+}
+
+/* button sets */
+/* line 205, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/profiles.css.scss */
+.ui-buttonset {
+  margin-right: 7px;
+}
+
+/* line 208, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/profiles.css.scss */
+.ui-buttonset .ui-button {
+  margin-left: 0;
+  margin-right: -.3em;
+}
+
+/* workarounds */
+/* reset extra padding in Firefox, see h5bp.com/l */
+/* line 215, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/profiles.css.scss */
+input.ui-button::-moz-focus-inner,
+button.ui-button::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+/* line 220, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/profiles.css.scss */
+.ui-datepicker {
+  width: 17em;
+  padding: .2em .2em 0;
+  display: none;
+}
+
+/* line 225, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/profiles.css.scss */
+.ui-datepicker .ui-datepicker-header {
+  position: relative;
+  padding: .2em 0;
+}
+
+/* line 229, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/profiles.css.scss */
+.ui-datepicker .ui-datepicker-prev,
+.ui-datepicker .ui-datepicker-next {
+  position: absolute;
+  top: 2px;
+  width: 1.8em;
+  height: 1.8em;
+}
+
+/* line 236, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/profiles.css.scss */
+.ui-datepicker .ui-datepicker-prev-hover,
+.ui-datepicker .ui-datepicker-next-hover {
+  top: 1px;
+}
+
+/* line 240, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/profiles.css.scss */
+.ui-datepicker .ui-datepicker-prev {
+  left: 2px;
+}
+
+/* line 243, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/profiles.css.scss */
+.ui-datepicker .ui-datepicker-next {
+  right: 2px;
+}
+
+/* line 246, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/profiles.css.scss */
+.ui-datepicker .ui-datepicker-prev-hover {
+  left: 1px;
+}
+
+/* line 249, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/profiles.css.scss */
+.ui-datepicker .ui-datepicker-next-hover {
+  right: 1px;
+}
+
+/* line 252, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/profiles.css.scss */
+.ui-datepicker .ui-datepicker-prev span,
+.ui-datepicker .ui-datepicker-next span {
+  display: block;
+  position: absolute;
+  left: 50%;
+  margin-left: -8px;
+  top: 50%;
+  margin-top: -8px;
+}
+
+/* line 261, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/profiles.css.scss */
+.ui-datepicker .ui-datepicker-title {
+  margin: 0 2.3em;
+  line-height: 1.8em;
+  text-align: center;
+}
+
+/* line 266, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/profiles.css.scss */
+.ui-datepicker .ui-datepicker-title select {
+  font-size: 1em;
+  margin: 1px 0;
+}
+
+/* line 270, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/profiles.css.scss */
+.ui-datepicker select.ui-datepicker-month,
+.ui-datepicker select.ui-datepicker-year {
+  width: 45%;
+}
+
+/* line 274, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/profiles.css.scss */
+.ui-datepicker table {
+  width: 100%;
+  font-size: .9em;
+  border-collapse: collapse;
+  margin: 0 0 .4em;
+}
+
+/* line 280, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/profiles.css.scss */
+.ui-datepicker th {
+  padding: .7em .3em;
+  text-align: center;
+  font-weight: bold;
+  border: 0;
+}
+
+/* line 286, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/profiles.css.scss */
+.ui-datepicker td {
+  border: 0;
+  padding: 1px;
+}
+
+/* line 290, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/profiles.css.scss */
+.ui-datepicker td span,
+.ui-datepicker td a {
+  display: block;
+  padding: .2em;
+  text-align: right;
+  text-decoration: none;
+}
+
+/* line 297, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/profiles.css.scss */
+.ui-datepicker .ui-datepicker-buttonpane {
+  background-image: none;
+  margin: .7em 0 0 0;
+  padding: 0 .2em;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 0;
+}
+
+/* line 305, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/profiles.css.scss */
+.ui-datepicker .ui-datepicker-buttonpane button {
+  float: right;
+  margin: .5em .2em .4em;
+  cursor: pointer;
+  padding: .2em .6em .3em .6em;
+  width: auto;
+  overflow: visible;
+}
+
+/* line 313, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/profiles.css.scss */
+.ui-datepicker .ui-datepicker-buttonpane button.ui-datepicker-current {
+  float: left;
+}
+
+/* with multiple calendars */
+/* line 318, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/profiles.css.scss */
+.ui-datepicker.ui-datepicker-multi {
+  width: auto;
+}
+
+/* line 321, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/profiles.css.scss */
+.ui-datepicker-multi .ui-datepicker-group {
+  float: left;
+}
+
+/* line 324, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/profiles.css.scss */
+.ui-datepicker-multi .ui-datepicker-group table {
+  width: 95%;
+  margin: 0 auto .4em;
+}
+
+/* line 328, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/profiles.css.scss */
+.ui-datepicker-multi-2 .ui-datepicker-group {
+  width: 50%;
+}
+
+/* line 331, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/profiles.css.scss */
+.ui-datepicker-multi-3 .ui-datepicker-group {
+  width: 33.3%;
+}
+
+/* line 334, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/profiles.css.scss */
+.ui-datepicker-multi-4 .ui-datepicker-group {
+  width: 25%;
+}
+
+/* line 337, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/profiles.css.scss */
+.ui-datepicker-multi .ui-datepicker-group-last .ui-datepicker-header,
+.ui-datepicker-multi .ui-datepicker-group-middle .ui-datepicker-header {
+  border-left-width: 0;
+}
+
+/* line 341, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/profiles.css.scss */
+.ui-datepicker-multi .ui-datepicker-buttonpane {
+  clear: left;
+}
+
+/* line 344, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/profiles.css.scss */
+.ui-datepicker-row-break {
+  clear: both;
+  width: 100%;
+  font-size: 0;
+}
+
+/* RTL support */
+/* line 351, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/profiles.css.scss */
+.ui-datepicker-rtl {
+  direction: rtl;
+}
+
+/* line 354, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/profiles.css.scss */
+.ui-datepicker-rtl .ui-datepicker-prev {
+  right: 2px;
+  left: auto;
+}
+
+/* line 358, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/profiles.css.scss */
+.ui-datepicker-rtl .ui-datepicker-next {
+  left: 2px;
+  right: auto;
+}
+
+/* line 362, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/profiles.css.scss */
+.ui-datepicker-rtl .ui-datepicker-prev:hover {
+  right: 1px;
+  left: auto;
+}
+
+/* line 366, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/profiles.css.scss */
+.ui-datepicker-rtl .ui-datepicker-next:hover {
+  left: 1px;
+  right: auto;
+}
+
+/* line 370, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/profiles.css.scss */
+.ui-datepicker-rtl .ui-datepicker-buttonpane {
+  clear: right;
+}
+
+/* line 373, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/profiles.css.scss */
+.ui-datepicker-rtl .ui-datepicker-buttonpane button {
+  float: left;
+}
+
+/* line 376, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/profiles.css.scss */
+.ui-datepicker-rtl .ui-datepicker-buttonpane button.ui-datepicker-current,
+.ui-datepicker-rtl .ui-datepicker-group {
+  float: right;
+}
+
+/* line 380, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/profiles.css.scss */
+.ui-datepicker-rtl .ui-datepicker-group-last .ui-datepicker-header,
+.ui-datepicker-rtl .ui-datepicker-group-middle .ui-datepicker-header {
+  border-right-width: 0;
+  border-left-width: 1px;
+}
+
+/* line 385, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/profiles.css.scss */
+.ui-dialog {
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: .2em;
+  outline: 0;
+}
+
+/* line 393, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/profiles.css.scss */
+.ui-dialog .ui-dialog-titlebar {
+  padding: .4em 1em;
+  position: relative;
+}
+
+/* line 397, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/profiles.css.scss */
+.ui-dialog .ui-dialog-title {
+  float: left;
+  margin: .1em 0;
+  white-space: nowrap;
+  width: 90%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* line 405, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/profiles.css.scss */
+.ui-dialog .ui-dialog-titlebar-close {
+  position: absolute;
+  right: .3em;
+  top: 50%;
+  width: 20px;
+  margin: -10px 0 0 0;
+  padding: 1px;
+  height: 20px;
+}
+
+/* line 414, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/profiles.css.scss */
+.ui-dialog .ui-dialog-content {
+  position: relative;
+  border: 0;
+  padding: .5em 1em;
+  background: none;
+  overflow: auto;
+}
+
+/* line 421, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/profiles.css.scss */
+.ui-dialog .ui-dialog-buttonpane {
+  text-align: left;
+  border-width: 1px 0 0 0;
+  background-image: none;
+  margin-top: .5em;
+  padding: .3em 1em .5em .4em;
+}
+
+/* line 428, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/profiles.css.scss */
+.ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset {
+  float: right;
+}
+
+/* line 431, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/profiles.css.scss */
+.ui-dialog .ui-dialog-buttonpane button {
+  margin: .5em .4em .5em 0;
+  cursor: pointer;
+}
+
+/* line 435, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/profiles.css.scss */
+.ui-dialog .ui-resizable-se {
+  width: 12px;
+  height: 12px;
+  right: -5px;
+  bottom: -5px;
+  background-position: 16px 16px;
+}
+
+/* line 442, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/profiles.css.scss */
+.ui-draggable .ui-dialog-titlebar {
+  cursor: move;
+}
+
+/* line 445, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/profiles.css.scss */
+.ui-draggable-handle {
+  -ms-touch-action: none;
+  touch-action: none;
+}
+
+/* line 449, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/profiles.css.scss */
+.ui-menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: block;
+  outline: none;
+}
+
+/* line 457, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/profiles.css.scss */
+.invoice-success {
+  color: #8aba49;
+}
+
+/* line 460, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/profiles.css.scss */
+.invoice-failed {
+  color: #FF4C3B;
+}
+
+/* line 464, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/profiles.css.scss */
+.btn-primary {
+  background-color: #71B22A;
+}
+
+/* line 468, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/profiles.css.scss */
+.btn-primary:hover {
+  background-color: #538421;
+}
+
+/* line 472, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/profiles.css.scss */
+.btn-outline-success {
+  border-color: #71B22A;
+}
+
+/* line 476, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/profiles.css.scss */
+.btn-outline-success:hover {
+  background-color: #71B22A;
+  color: #fff;
+  border-color: #71B22A;
+}
+
+/* line 482, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/profiles.css.scss */
+#profile-back-btn {
+  display: inline-block;
+  float: left;
+  margin-left: 2em;
+}
+
+/* line 488, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/profiles.css.scss */
+#profile-update-btn {
+  display: inline-block;
+  float: left;
+}
+
+/* line 493, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/profiles.css.scss */
+.update-password-container-hide {
+  display: none;
+}
+
+/* line 497, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/profiles.css.scss */
+.update-password-container-show {
+  display: block;
+}
+
+/* line 501, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/profiles.css.scss */
+.alert-warning {
+  margin-left: 15em;
+}
+
+/* line 1, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/workshops.css.scss */
+.workshop-header {
+  padding: 5px 0px;
+}
+
+/* line 6, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/workshops.css.scss */
+.card-block.workshop {
+  padding: 13px 13px 0px;
+}
+
+/* line 11, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/workshops.css.scss */
+.image {
+  position: relative;
+}
+
+/* line 15, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/workshops.css.scss */
+.image img {
+  width: 100%;
+  vertical-align: top;
+}
+
+/* line 20, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/workshops.css.scss */
+.image:after {
+  content: '\A';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.6);
+  opacity: 0;
+  transition: all 1s;
+  -webkit-transition: all 1s;
+  cursor: pointer;
+}
+
+/* line 32, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/workshops.css.scss */
+.image-dark:after {
+  content: '\A';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.6);
+  opacity: 1;
+  transition: all 1s;
+  -webkit-transition: all 1s;
+  cursor: pointer;
+}
+
+/* line 44, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/workshops.css.scss */
+.image:hover:after {
+  opacity: 1;
+}
+
+/* line 48, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/workshops.css.scss */
+.image-dark:hover:after {
+  opacity: 0.2;
+}
+/* line 51, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/workshops.css.scss */
+.image-dark:hover:after .card-img-overlay {
+  color: red;
+}
+
+/* line 56, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/workshops.css.scss */
+.play-icon {
+  position: absolute;
+  z-index: 30;
+  left: 50%;
+  top: 50%;
+  transform: translate3d(-50%, -50%, 0);
+  cursor: pointer;
+  color: #fff;
+}
+
+/* line 66, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/workshops.css.scss */
+.rsvp-button {
+  border: 1px solid #fff;
+  padding: 4px 12px;
+  color: #fff;
+  position: absolute;
+  z-index: 10000;
+  right: 4%;
+  top: 4%;
+}
+/* line 75, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/workshops.css.scss */
+.rsvp-button.you-in {
+  background-color: #7857a4;
+  border-color: #7857a4;
+}
+/* line 80, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/workshops.css.scss */
+.rsvp-button:hover {
+  background-color: #7857a4;
+  border-color: #7857a4;
+  color: #fff;
+}
+
+/* line 87, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/workshops.css.scss */
+.workshop-date {
+  width: 4em;
+  height: 4em;
+  background-color: #fff;
+  color: #4a4a4a;
+  text-align: center;
+  margin: auto;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  font-size: 23px;
+  transform: translate3d(-50%, -50%, 0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* line 105, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/workshops.css.scss */
+.card-img-overlay {
+  color: #fff;
+  z-index: 40;
+  opacity: 0.9;
+}
+/* line 111, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/workshops.css.scss */
+.card-img-overlay .workshop-title p {
+  position: absolute;
+  bottom: 8px;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+/* line 121, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/workshops.css.scss */
+.no-bottom-margin {
+  margin-bottom: 0px;
+}
+
+/* line 125, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/workshops.css.scss */
+.with-margin {
+  margin: 15px;
+}
+
+/* line 129, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/workshops.css.scss */
+.my-workshops {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #fff;
+}
+/* line 135, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/workshops.css.scss */
+.my-workshops .my-workshop-star {
+  background-color: #7857a4;
+  color: #fff;
+  text-align: center;
+  padding: 23px;
+  margin-right: 10px;
+  align-self: stretch;
+  align-items: center;
+  display: flex;
+  padding: 10px 36px;
+}
+/* line 146, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/workshops.css.scss */
+.my-workshops .my-workshop-date {
+  padding: 10px;
+  flex-grow: 1;
+}
+/* line 150, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/workshops.css.scss */
+.my-workshops .my-workshop-name {
+  padding: 10px;
+  flex-grow: 6;
+}
+/* line 154, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/workshops.css.scss */
+.my-workshops .my-workshop-status {
+  padding: 20px;
+  flex-grow: 1;
+  min-width: 300px;
+  text-align: right;
+}
+/* line 159, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/workshops.css.scss */
+.my-workshops .my-workshop-status .live-workshop-text {
+  background-color: red;
+  padding: 0.3em 1.5em;
+  display: inline-block;
+  color: #fff;
+  margin-bottom: 0;
+}
+/* line 167, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/workshops.css.scss */
+.my-workshops .my-workshop-remove {
+  flex-grow: 1;
+  align-self: flex-start;
+  text-align: right;
+  padding-right: 18px;
+  padding-top: 6px;
+}
+/* line 173, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/workshops.css.scss */
+.my-workshops .my-workshop-remove a {
+  color: #a5adb6;
+}
+/* line 175, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/workshops.css.scss */
+.my-workshops .my-workshop-remove a:hover {
+  color: #E32800;
+}
+
+/* line 182, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/workshops.css.scss */
+.my-workshops + .my-workshops {
+  margin-top: 10px;
+}
+
+/* line 186, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/workshops.css.scss */
+.my-workshops:last-of-type {
+  margin-bottom: 3em;
+}
+
+/* line 198, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/workshops.css.scss */
+.remove-rsvp {
+  font-size: 16px;
+  color: #a5adb6 !important;
+}
+/* line 202, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/workshops.css.scss */
+.remove-rsvp:hover {
+  color: #E32800 !important;
+}
+
+/* line 207, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/workshops.css.scss */
+.green-text {
+  color: #71B22A;
+}
+
+/* line 211, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/workshops.css.scss */
+.reserve-my-spot-btn {
+  padding: 10px 25px;
+  color: #fff;
+  background-color: #7857a4;
+  border-color: #7857a4;
+  margin: 10px auto;
+  width: 200px;
+}
+/* line 219, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/workshops.css.scss */
+.reserve-my-spot-btn.you-in {
+  width: 140px;
+}
+
+/* line 224, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/workshops.css.scss */
+.title-bar {
+  background-color: #7857a4;
+  color: #fff;
+}
+
+/* line 229, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/workshops.css.scss */
+#clockdiv {
+  display: inline-flex;
+  margin-bottom: 0.5rem;
+}
+/* line 233, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/workshops.css.scss */
+#clockdiv .num-group {
+  padding: 20px;
+}
+/* line 237, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/workshops.css.scss */
+#clockdiv .number {
+  font-size: 60px;
+  font-weight: bold;
+}
+
+/* line 244, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/workshops.css.scss */
+.elite-step-bar {
+  height: 4em;
+  line-height: 4em;
+  background-color: #7857a4;
+  margin-left: 80px;
+  overflow: hidden;
+}
+/* line 250, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/workshops.css.scss */
+.elite-step-bar .ep-title {
+  color: white;
+  font-size: 1.3em;
+}
+/* line 254, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/workshops.css.scss */
+.elite-step-bar #next-chevron, .elite-step-bar #prev-chevron {
+  left: -1em;
+  cursor: pointer;
+  z-index: 1000;
+  height: 100%;
+  min-width: 165px;
+  background-color: #7857a4;
+  border-color: #7857a4;
+  padding: 1.4em;
+  border-radius: 0;
+}
+/* line 266, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/workshops.css.scss */
+.elite-step-bar #next-chevron:hover, .elite-step-bar #prev-chevron:hover {
+  background-color: #9B7AC0;
+}
+
+/* line 271, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/workshops.css.scss */
+.workshop-image-overview {
+  background: transparent;
+  transition: background-color 1s ease-in-out;
+  -webkit-transition: background-color 1s ease-in-out;
+  -o-transition: background-color 1s ease-in-out;
+  -moz-transition: background-color 1s ease-in-out;
+}
+/* line 277, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/workshops.css.scss */
+.workshop-image-overview .fa-play-circle {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 2em;
+  font-weight: 100;
+  margin-top: 0.5em;
+}
+
+/* line 285, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/workshops.css.scss */
+.workshop-image-overview:hover .workshop-play-overlay {
+  display: block;
+  position: absolute;
+  top: 0;
+  width: 255px;
+  height: 144px;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  background-color: rgba(74, 74, 74, 0.7);
+}
+
+/* line 298, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/workshops.css.scss */
+.workshop-play-overlay {
+  display: none;
+}
+
+/* line 302, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/workshops.css.scss */
+.expired-challenge-state {
+  background-color: red;
+  padding: 1em 1.5em;
+  display: inline-block;
+}
+/* line 306, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/workshops.css.scss */
+.expired-challenge-state p {
+  color: #fff;
+  margin-bottom: 0;
+}
+
+/* line 312, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/workshops.css.scss */
+.assets-content-container {
+  width: 100%;
+  background-color: #fff;
+}
+/* line 315, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/workshops.css.scss */
+.assets-content-container .assets-title {
+  border-bottom: 1px solid lightgrey;
+  text-align: center;
+}
+/* line 318, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/workshops.css.scss */
+.assets-content-container .assets-title .fa {
+  color: #fff;
+  background-color: #3898d3;
+  float: left;
+  width: 55px;
+  height: 55px;
+  vertical-align: middle;
+  border-radius: 100%;
+  line-height: 55px;
+  font-size: 1.5em;
+}
+/* line 329, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/workshops.css.scss */
+.assets-content-container .assets-title h3 {
+  float: left;
+  line-height: 55px;
+}
+/* line 334, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/workshops.css.scss */
+.assets-content-container .assets-content {
+  padding-top: 1em;
+}
+
+/* line 339, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/workshops.css.scss */
+.description-content-container {
+  width: 100%;
+  background-color: #fff;
+}
+/* line 342, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/workshops.css.scss */
+.description-content-container .description-title {
+  border-bottom: 1px solid lightgrey;
+  text-align: center;
+}
+/* line 345, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/workshops.css.scss */
+.description-content-container .description-title .fa {
+  color: #fff;
+  background-color: #53D2B6;
+  float: left;
+  width: 55px;
+  height: 55px;
+  vertical-align: middle;
+  border-radius: 100%;
+  line-height: 55px;
+  font-size: 1.5em;
+}
+/* line 356, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/workshops.css.scss */
+.description-content-container .description-title h3 {
+  float: left;
+  line-height: 55px;
+}
+/* line 361, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/workshops.css.scss */
+.description-content-container .assets-content {
+  padding-top: 1em;
+}
+
+/* line 367, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/workshops.css.scss */
+.live-container {
+  margin-left: 50px;
+  justify-content: center;
+  background-color: #fff;
+}
+/* line 371, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/workshops.css.scss */
+.live-container .elite-step-bar-live {
+  height: 4em;
+  line-height: 4em;
+  background-color: rgba(56, 152, 211, 0.7);
+  overflow: hidden;
+  justify-content: center;
+  margin: 0 auto;
+}
+/* line 378, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/workshops.css.scss */
+.live-container .elite-step-bar-live .ep-title {
+  color: white;
+  font-size: 1.3em;
+}
+/* line 383, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/workshops.css.scss */
+.live-container .live-workshop-container {
+  margin: 0 auto;
+  background-color: #fff;
+  padding-bottom: 2em;
+}
+/* line 387, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/workshops.css.scss */
+.live-container .live-workshop-container .nav.nav-pills {
+  border-bottom: 1px solid lightgrey;
+}
+/* line 389, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/workshops.css.scss */
+.live-container .live-workshop-container .nav.nav-pills li:not(:first-child) {
+  margin-left: 2em;
+}
+/* line 392, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/workshops.css.scss */
+.live-container .live-workshop-container .nav.nav-pills .nav-link {
+  padding: 2em 1em 1em 1em !important;
+}
+/* line 395, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/workshops.css.scss */
+.live-container .live-workshop-container .nav.nav-pills .nav-link.active {
+  background-color: #fff;
+  color: #3898d3;
+  border-bottom: 5px solid #3898d3;
+  border-radius: 0;
+}
+/* line 404, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/workshops.css.scss */
+.live-container .live-workshop-container #challenge.tab-pane .challenge-left-column ol, .live-container .live-workshop-container #challenge.tab-pane .challenge-left-column ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+/* line 408, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/workshops.css.scss */
+.live-container .live-workshop-container #challenge.tab-pane .challenge-left-column ol li, .live-container .live-workshop-container #challenge.tab-pane .challenge-left-column ul li {
+  counter-increment: step-counter;
+  margin-bottom: 20px;
+  margin-left: 35px;
+  text-indent: -35px;
+}
+/* line 414, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/workshops.css.scss */
+.live-container .live-workshop-container #challenge.tab-pane .challenge-left-column ol li::before, .live-container .live-workshop-container #challenge.tab-pane .challenge-left-column ul li::before {
+  content: counter(step-counter);
+  margin-right: 10px;
+  font-size: 80%;
+  background-color: #2481c6;
+  color: white;
+  padding: 3px 8px;
+  border-radius: 50%;
+}
+/* line 427, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/workshops.css.scss */
+.live-container .live-workshop-container #challenge.tab-pane .challenge-right-column ul, .live-container .live-workshop-container #challenge.tab-pane .challenge-right-column ol {
+  list-style-type: none;
+  padding-left: 0;
+}
+/* line 430, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/workshops.css.scss */
+.live-container .live-workshop-container #challenge.tab-pane .challenge-right-column ul li, .live-container .live-workshop-container #challenge.tab-pane .challenge-right-column ol li {
+  margin-bottom: 10px;
+}
+/* line 432, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/workshops.css.scss */
+.live-container .live-workshop-container #challenge.tab-pane .challenge-right-column ul li .schedule-color, .live-container .live-workshop-container #challenge.tab-pane .challenge-right-column ol li .schedule-color {
+  color: #2481c6;
+}
+/* line 439, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/workshops.css.scss */
+.live-container .live-workshop-container .assets-content-container {
+  border: 1px solid lightgrey;
+  margin-top: 60px;
+}
+/* line 442, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/workshops.css.scss */
+.live-container .live-workshop-container .assets-content-container h3 {
+  margin-left: 0.5em;
+}
+/* line 445, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/workshops.css.scss */
+.live-container .live-workshop-container .assets-content-container a {
+  color: #3898d3;
+}
+
+/* line 455, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/workshops.css.scss */
+.challenge-container {
+  margin-left: 240px;
+}
+/* line 457, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/workshops.css.scss */
+.challenge-container .elite-step-bar-live {
+  height: 4em;
+  line-height: 4em;
+  background-color: rgba(56, 152, 211, 0.7);
+  overflow: hidden;
+  justify-content: center;
+  margin: 0 auto;
+}
+/* line 464, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/workshops.css.scss */
+.challenge-container .elite-step-bar-live .ep-title {
+  color: white;
+  font-size: 1.3em;
+}
+/* line 469, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/workshops.css.scss */
+.challenge-container .challenge-form-container {
+  padding-left: 5em;
+}
+/* line 471, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/workshops.css.scss */
+.challenge-container .challenge-form-container .title-container {
+  margin: 0 auto;
+  flex-direction: row;
+}
+/* line 478, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/workshops.css.scss */
+.challenge-container .challenge-form-container .challenge-started-container .challenge-left-column ol, .challenge-container .challenge-form-container .challenge-started-container .challenge-left-column ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+/* line 482, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/workshops.css.scss */
+.challenge-container .challenge-form-container .challenge-started-container .challenge-left-column ol li, .challenge-container .challenge-form-container .challenge-started-container .challenge-left-column ul li {
+  counter-increment: step-counter;
+  margin-bottom: 20px;
+  margin-left: 35px;
+  text-indent: -35px;
+}
+/* line 488, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/workshops.css.scss */
+.challenge-container .challenge-form-container .challenge-started-container .challenge-left-column ol li::before, .challenge-container .challenge-form-container .challenge-started-container .challenge-left-column ul li::before {
+  content: counter(step-counter);
+  margin-right: 10px;
+  font-size: 80%;
+  background-color: #2481c6;
+  color: white;
+  padding: 3px 8px;
+  border-radius: 50%;
+}
+/* line 501, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/workshops.css.scss */
+.challenge-container .challenge-form-container .challenge-started-container .challenge-right-column ul, .challenge-container .challenge-form-container .challenge-started-container .challenge-right-column ol {
+  list-style-type: none;
+  padding-left: 0;
+}
+/* line 504, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/workshops.css.scss */
+.challenge-container .challenge-form-container .challenge-started-container .challenge-right-column ul li, .challenge-container .challenge-form-container .challenge-started-container .challenge-right-column ol li {
+  margin-bottom: 10px;
+}
+/* line 506, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/workshops.css.scss */
+.challenge-container .challenge-form-container .challenge-started-container .challenge-right-column ul li .schedule-color, .challenge-container .challenge-form-container .challenge-started-container .challenge-right-column ol li .schedule-color {
+  color: #2481c6;
+}
+/* line 515, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/workshops.css.scss */
+.challenge-container .how-it-works .font-weight-bold {
+  font-weight: 600;
+}
+
+/* line 526, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/workshops.css.scss */
+.live-container .nav-pills a {
+  color: #3898d3;
+}
+/* line 530, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/workshops.css.scss */
+.live-container #community.tab-pane {
+  padding-left: 1em;
+}
+/* line 538, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/workshops.css.scss */
+.live-container #community.tab-pane .slack-row .slack-container {
+  padding: 2em 0 0 0;
+}
+/* line 540, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/workshops.css.scss */
+.live-container #community.tab-pane .slack-row .slack-container .slack-btn {
+  border: 1px solid #fff;
+  width: 40%;
+  margin: 0 auto;
+  transition: background-color 0.5s ease-in-out;
+}
+/* line 546, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/workshops.css.scss */
+.live-container #community.tab-pane .slack-row .slack-container .slack-btn .slack-join {
+  margin-right: 0.5em;
+  font-size: 1.3em;
+  display: inline-block;
+  vertical-align: middle;
+}
+/* line 552, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/workshops.css.scss */
+.live-container #community.tab-pane .slack-row .slack-container .slack-btn .slack-logo img {
+  width: 6em;
+  display: inline-block;
+}
+/* line 557, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/workshops.css.scss */
+.live-container #community.tab-pane .slack-row .slack-container .slack-btn:hover {
+  background-color: rgba(255, 255, 255, 0.7);
+}
+/* line 561, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/workshops.css.scss */
+.live-container #community.tab-pane .slack-row .card-footer {
+  background-color: #fff;
+  text-align: center;
+}
+/* line 564, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/workshops.css.scss */
+.live-container #community.tab-pane .slack-row .card-footer .workshop-join-btn {
+  color: #fff;
+  background-color: #8aba49;
+  border-color: #8aba49;
+  padding: 1em 4em;
+  font-size: 1.2rem;
+  max-width: 100%;
+}
+/* line 572, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/workshops.css.scss */
+.live-container #community.tab-pane .slack-row .card-footer .workshop-join-btn:hover {
+  color: #fff;
+  background-color: #7fab43;
+  border-color: #7fab43;
+}
+/* line 581, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/workshops.css.scss */
+.live-container form#results-form label, .live-container form#results-form input {
+  display: block;
+}
+/* line 584, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/workshops.css.scss */
+.live-container form#results-form #description {
+  width: 80%;
+  min-height: 100px;
+}
+/* line 588, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/workshops.css.scss */
+.live-container form#results-form .title-input {
+  width: 80%;
+}
+/* line 591, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/workshops.css.scss */
+.live-container form#results-form #form-submit-btn {
+  background-color: #3898d3;
+  border-color: #3898d3;
+}
+
+/* line 599, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/workshops.css.scss */
+.card-deck.on-demand-workshops .card {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 30%;
+  flex: 0 0 30%;
+}
+/* line 603, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/workshops.css.scss */
+.card-deck.on-demand-workshops .card:first-child {
+  margin-left: 0.9em;
+}
+
+/* line 1, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/deals.scss */
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(255, 255, 255, 0.9);
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+
+/* line 13, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/deals.scss */
+.media-card:hover .overlay {
+  height: 100%;
+}
+
+/* line 17, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/deals.scss */
+.overlay-text {
+  white-space: nowrap;
+  color: #4a4a4a;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 40%;
+  left: 50%;
+  width: 100%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+/* line 28, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/deals.scss */
+.overlay-text .smaller {
+  font-size: 75%;
+}
+
+/* line 33, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/deals.scss */
+.row-line {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+  margin: 0;
+}
+/* line 37, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/deals.scss */
+.row-line .list-group-item {
+  border: none;
+  padding-left: 0px;
+  padding-right: 0px;
+  display: block;
+}
+/* line 43, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/deals.scss */
+.row-line p {
+  margin-top: 1em;
+}
+
+@media screen and (max-width: 1200px) {
+  /* line 8, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/responsive.css.scss */
+  .card-columns {
+    column-count: 3;
+  }
+}
+@media screen and (max-width: 990px) {
+  /* line 8, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/responsive.css.scss */
+  .card-columns {
+    column-count: 2;
+  }
+}
+@media screen and (max-width: 640px) {
+  /* line 8, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/responsive.css.scss */
+  .card-columns {
+    column-count: 1;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  /* line 29, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/responsive.css.scss */
+  .workshop-row, .challenge-row, .slack-row {
+    padding: 0 1em;
+  }
+
+  /* line 32, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/responsive.css.scss */
+  .engage-card {
+    width: 100%;
+  }
+
+  /* line 35, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/responsive.css.scss */
+  .workshop-join-btn {
+    padding: 0.5em !important;
+    font-size: 1rem !important;
+  }
+}
+@media screen and (max-width: 1024px) {
+  /* line 41, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/responsive.css.scss */
+  .dashboard-right-column {
+    padding: 0 20px;
+  }
+
+  /* line 44, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/responsive.css.scss */
+  .workshop-join-btn {
+    padding: 0;
+    font-size: 1rem;
+  }
+
+  /* line 48, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/responsive.css.scss */
+  section.section-footer {
+    padding-left: 5em;
+    text-align: center;
+  }
+  /* line 51, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/responsive.css.scss */
+  section.section-footer #social-wrapper {
+    float: none;
+  }
+
+  /* line 55, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/responsive.css.scss */
+  h2 {
+    font-size: 1.5rem;
+  }
+}
+@media screen and (max-width: 800px) {
+  /* line 100, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/responsive.css.scss */
+  #sidebar-wrapper {
+    min-width: 65px !important;
+    width: 65px;
+  }
+  /* line 103, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/responsive.css.scss */
+  #sidebar-wrapper .nav-item span {
+    display: none !important;
+  }
+
+  /* line 107, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/responsive.css.scss */
+  section {
+    padding-left: 4em !important;
+  }
+
+  /* line 110, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/responsive.css.scss */
+  .elite-db-container {
+    padding-left: 12em;
+  }
+  /* line 112, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/responsive.css.scss */
+  .elite-db-container .slack-row, .elite-db-container .challenge-row, .elite-db-container .workshop-row {
+    padding: 0 !important;
+  }
+  /* line 114, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/responsive.css.scss */
+  .elite-db-container .slack-row .card-block h5, .elite-db-container .challenge-row .card-block h5, .elite-db-container .workshop-row .card-block h5 {
+    font-size: 0.8rem;
+  }
+
+  /* line 120, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/responsive.css.scss */
+  .card-footer a {
+    padding: 0.5em !important;
+    font-size: 1em !important;
+  }
+
+  /* line 125, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/responsive.css.scss */
+  .sidebar {
+    width: 100px;
+  }
+  /* line 127, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/responsive.css.scss */
+  .sidebar .nav-link div {
+    font-size: 0.6em;
+    float: right;
+  }
+  /* line 130, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/responsive.css.scss */
+  .sidebar .nav-link div small {
+    margin-left: 0 !important;
+  }
+  /* line 134, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/responsive.css.scss */
+  .sidebar .fa.fa-fw {
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    padding-top: 0;
+  }
+
+  /* line 142, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/responsive.css.scss */
+  nav.navbar button.navbar-toggler-right {
+    top: .5rem;
+  }
+
+  /* line 146, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/responsive.css.scss */
+  section {
+    padding-left: 5em;
+  }
+
+  /* line 149, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/responsive.css.scss */
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  /* line 152, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/responsive.css.scss */
+  section.section-footer {
+    padding-left: 5em;
+    text-align: center;
+  }
+  /* line 155, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/responsive.css.scss */
+  section.section-footer #social-wrapper {
+    float: none;
+  }
+}
+@media screen and (max-width: 640px) {
+  /* line 162, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/responsive.css.scss */
+  .col-md-6 {
+    max-width: 350px;
+  }
+}
+@media screen and (max-width: 414px) {
+  /* line 168, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/responsive.css.scss */
+  .sidebar#sidebar-wrapper {
+    min-width: 65px;
+    width: 65px;
+  }
+  /* line 171, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/responsive.css.scss */
+  .sidebar#sidebar-wrapper .nav-item span {
+    display: none !important;
+  }
+  /* line 173, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/responsive.css.scss */
+  .sidebar#sidebar-wrapper .nav-item span i.fa {
+    padding-top: 5px !important;
+  }
+
+  /* line 178, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/responsive.css.scss */
+  .section-welcome {
+    padding-left: 5em !important;
+  }
+
+  /* line 181, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/responsive.css.scss */
+  .alert-info {
+    padding-left: 6em !important;
+  }
+
+  /* line 184, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/responsive.css.scss */
+  .elite-db-container {
+    padding-left: 5em !important;
+  }
+  /* line 186, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/responsive.css.scss */
+  .elite-db-container .container {
+    width: 100%;
+  }
+
+  /* line 190, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/responsive.css.scss */
+  .navbar-toggler-right {
+    right: 0;
+  }
+
+  /* line 194, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/responsive.css.scss */
+  .my-workshops {
+    flex-direction: column !important;
+    align-items: left !important;
+    text-align: left !important;
+  }
+
+  /* line 200, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/responsive.css.scss */
+  .my-workshop-star {
+    margin-right: 0px;
+    text-align: center;
+  }
+  /* line 204, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/responsive.css.scss */
+  .my-workshop-star i {
+    margin: 0 auto;
+  }
+
+  /* line 209, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/responsive.css.scss */
+  .my-workshop-status {
+    text-align: left;
+  }
+
+  /* line 213, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/responsive.css.scss */
+  .my-workshop-remove {
+    align-self: flex-end;
+  }
+}
+@media screen and (max-width: 414px) {
+  /* line 219, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/responsive.css.scss */
+  .sidebar#sidebar-wrapper {
+    min-width: 55px;
+    width: 55px;
+  }
+  /* line 223, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/responsive.css.scss */
+  .sidebar#sidebar-wrapper .nav-item .nav-link {
+    padding: 1em 0.5em !important;
+  }
+  /* line 225, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/responsive.css.scss */
+  .sidebar#sidebar-wrapper .nav-item .nav-link span {
+    display: none !important;
+  }
+  /* line 228, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/responsive.css.scss */
+  .sidebar#sidebar-wrapper .nav-item .nav-link i.fa {
+    padding-top: 5px !important;
+  }
+}
+@media screen and (max-width: 800px) {
+  /* line 238, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/responsive.css.scss */
+  #ep-index-container, #wwn-index-container, #oh-index-container, #toolbox-index-container, #deals-index-container {
+    margin: 0;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 640px) {
+  /* line 246, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/responsive.css.scss */
+  #author-bio {
+    padding: 15px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  /* line 252, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/responsive.css.scss */
+  #author-pic-and-title {
+    margin: 0 auto;
+    padding-top: 15px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  /* line 261, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/responsive.css.scss */
+  #ep-wrapper {
+    padding-left: 20px;
+  }
+}
+@media screen and (max-width: 990px) {
+  /* line 261, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/responsive.css.scss */
+  #ep-wrapper {
+    padding-left: 0px;
+  }
+}
+@media screen and (max-width: 800px) {
+  /* line 271, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/responsive.css.scss */
+  #ep-wrapper .ep-content-wrapper {
+    margin-left: 7em !important;
+  }
+}
+@media screen and (max-width: 414px) {
+  /* line 276, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/responsive.css.scss */
+  #ep-wrapper .ep-content-wrapper {
+    margin-left: 7em !important;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  /* line 282, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/responsive.css.scss */
+  .ep-content-wrapper {
+    margin-left: 0px !important;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  /* line 288, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/responsive.css.scss */
+  .ep-content img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  /* line 295, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/responsive.css.scss */
+  .ep-content video {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  /* line 302, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/responsive.css.scss */
+  .ep-content h1 {
+    font-size: 1.7rem;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  /* line 309, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/responsive.css.scss */
+  #next-chevron {
+    right: 3em;
+    bottom: -1.5%;
+    margin-left: 4em;
+  }
+}
+@media screen and (max-width: 530px) {
+  /* line 309, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/responsive.css.scss */
+  #next-chevron {
+    right: 1em;
+    margin-left: 2em;
+  }
+}
+@media screen and (max-width: 375px) {
+  /* line 309, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/responsive.css.scss */
+  #next-chevron {
+    right: 0em;
+    bottom: -1%;
+    margin-left: 1em;
+  }
+}
+
+/* line 743, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.card_table {
+  list-style: none;
+}
+
+/* line 746, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.card_item {
+  list-style: none;
+}
+
+/* line 749, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.homepage-alert {
+  margin-left: 242px;
+}
+
+/* line 752, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.initials {
+  background-color: #8aba49;
+  color: white;
+  border-radius: 100%;
+  padding: 0.5em;
+}
+
+/* line 759, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+i#search-icon {
+  cursor: pointer;
+}
+
+/* line 763, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+button.search-submit-btn {
+  border: none;
+}
+
+/* line 767, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.avatar-circle {
+  width: 30px;
+}
+
+/* line 771, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.grey-image {
+  -webkit-filter: opacity(0.4);
+  filter: opacity(0.4);
+}
+
+/* line 776, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.bg-white {
+  background-color: #fff;
+}
+
+/* line 780, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.community-description {
+  font-size: 1.2em;
+}
+
+/* line 793, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container {
+  /*
+  * This is a manifest file that'll be compiled into application.css, which will include all the files
+  * listed below.
+  *
+  * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+  * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+  *
+  * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+  * compiled file so the styles you add here take precedence over styles defined in any styles
+  * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+  * file per style scope.
+  *
+  */
+}
+/* line 794, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container .cursor-hand {
+  cursor: pointer;
+}
+/* line 798, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container .user-course #course-library .fa-stack {
+  color: #818a91;
+}
+/* line 801, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container .user-course .card-block {
+  min-height: 11em;
+}
+/* line 804, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container .user-course #share .fa-stack {
+  transition: all .2s ease-in-out;
+}
+/* line 807, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container .user-course #share .fa-stack:hover {
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -o-transform: scale(1.2);
+}
+/* line 814, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container .user-course #share .fa-stack:before {
+  display: block;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.12), 0 2px 4px rgba(0, 0, 0, 0.24);
+}
+/* line 821, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container .user-course .fa-play {
+  left: 2px !important;
+}
+/* line 824, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container .user-course .card {
+  transition: background-color 0.5s ease;
+  margin-bottom: 2em;
+}
+/* line 827, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container .user-course .card .progress {
+  display: inline;
+  margin-bottom: 0px;
+  width: 100%;
+}
+/* line 832, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container .user-course .card .card-title {
+  color: #4A4A4A;
+  margin-bottom: .75rem !important;
+  margin-top: 0 !important;
+}
+/* line 837, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container .user-course .card .card-block {
+  padding: 1.25rem;
+}
+/* line 840, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container .user-course .card .card-img-top {
+  height: 11em;
+  position: relative;
+}
+/* line 844, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container .user-course .card .card-text {
+  font-size: 13px;
+  font-weight: lighter;
+  overflow: hidden;
+  display: -webkit-box;
+  text-overflow: ellipsis;
+  -o-text-overflow: ellipsis;
+  -ms-text-overflow: ellipsis;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  display: block;
+  display: -webkit-box;
+  margin: 0 auto;
+  -webkit-box-orient: vertical;
+  margin-bottom: 6px;
+}
+/* line 861, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container .user-course .card .card-text.details {
+  font-size: 10px;
+}
+/* line 864, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container .user-course .card .share-btn {
+  position: relative;
+}
+/* line 866, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container .user-course .card .share-btn #share {
+  transition: color ease 0s;
+  color: #8aba49;
+  position: absolute;
+  right: 7px;
+  top: -22px;
+}
+/* line 873, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container .user-course .card .share-btn #share:hover {
+  color: #618432;
+}
+/* line 879, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container .arrow-button-right {
+  text-decoration: none;
+  display: inline-block;
+  color: #F8F8F8;
+  height: 3em;
+  line-height: 3em;
+  cursor: pointer;
+  border: none;
+  background: #9EA1A6;
+  padding: 0 15px;
+  position: relative;
+  margin-left: 14px;
+  font-size: 12px;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  transition: all 0.5s ease;
+}
+/* line 896, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container .arrow-button-right:before {
+  content: '';
+  display: inline-block;
+  position: absolute;
+  left: -15px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 18px 15px 18px 0;
+  border-color: transparent #9EA1A6 transparent transparent;
+  border-radius: 2px;
+  transition: all 0.5s ease;
+}
+/* line 909, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container .arrow-button-left {
+  text-decoration: none;
+  display: inline-block;
+  color: #F8F8F8;
+  height: 3em;
+  line-height: 3em;
+  cursor: pointer;
+  border: none;
+  background: #9EA1A6;
+  padding: 0 15px;
+  position: relative;
+  margin-right: 14px;
+  font-size: 12px;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+  transition: all 0.5s ease;
+}
+/* line 926, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container .arrow-button-left:before {
+  content: '';
+  display: inline-block;
+  position: absolute;
+  right: -15px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 18px 0 18px 15px;
+  border-color: transparent transparent transparent #9EA1A6;
+  border-radius: 2px;
+  transition: all 0.5s ease;
+}
+/* line 939, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container .media-card .media-object {
+  width: 200px;
+}
+/* line 942, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container .media-object {
+  display: block;
+}
+/* line 945, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container .media-heading {
+  color: #4A4A4A;
+}
+/* line 948, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container .lesson {
+  transition: all 0.5s ease;
+  color: black;
+}
+/* line 952, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container .text-none:hover {
+  text-decoration: none;
+}
+/* line 955, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container .lesson:hover {
+  text-decoration: none;
+  background: #f7f7f9;
+}
+/* line 959, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container .p-x-0 {
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+}
+/* line 963, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container .p-b-0 {
+  padding-bottom: 0 !important;
+}
+/* line 966, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container .p-y-0 {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+/* line 970, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container .p-y-2 {
+  padding-top: 1.5rem !important;
+  padding-bottom: 1.5rem !important;
+}
+/* line 974, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container .p-l-0 {
+  padding-left: 0 !important;
+}
+/* line 977, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container .m-y-0 {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+/* line 981, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container .m-y-2 {
+  margin-top: 1.5rem !important;
+  margin-bottom: 1.5rem !important;
+}
+/* line 985, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container .m-b-3 {
+  margin-bottom: 3rem !important;
+}
+/* line 988, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container .m-t-1 {
+  margin-top: 1rem !important;
+}
+/* line 991, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container .p-a-3 {
+  padding: 3rem 3rem !important;
+}
+/* line 994, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container .media, .hq_container .media-body {
+  overflow: hidden;
+  zoom: 1;
+}
+/* line 998, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container .h3 {
+  font-size: 1.75rem;
+}
+/* line 1001, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container .col-md-offset-2 {
+  margin-left: 16.66667%;
+}
+/* line 1004, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container .col-md-offset-3 {
+  margin-left: 25%;
+}
+/* line 1007, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container .col-md-offset-4 {
+  margin-left: 33.33333%;
+}
+/* line 1010, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container .media-left {
+  padding-right: 10px;
+}
+/* line 1013, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container .media-body {
+  padding: 14px;
+}
+/* line 1016, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container .media-left, .hq_container .media-body {
+  display: table-cell;
+  vertical-align: top;
+}
+/* line 1020, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container .completion_percentage {
+  height: 100px;
+}
+/* line 1023, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container .assignment-percentage {
+  position: relative;
+  font-size: 24px;
+  bottom: 80px;
+  width: 100px;
+  color: #4A4A4A;
+}
+/* line 1030, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container .assignment-percentage .text-muted.small {
+  font-size: 12px;
+  color: #D8D8D8;
+  line-height: 1;
+}
+/* line 1035, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container .course-img {
+  max-width: none;
+  width: 150px;
+  height: 150px;
+}
+/* line 1040, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container .set-width {
+  min-width: 720px;
+}
+/* line 1739, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container #body {
+  padding-top: 52px;
+}
+/* line 1743, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container .wait {
+  cursor: wait;
+}
+/* line 1746, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container .container,
+.hq_container .container-md {
+  margin-top: 2em;
+}
+/* line 1750, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container .lead-md {
+  font-size: 16px;
+}
+/* line 1753, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container .vertical-hr {
+  border-left: solid 1px #eceeef;
+}
+/* line 1756, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container .vertical-hr-right {
+  border-right: solid 1px #eceeef;
+}
+/* line 1759, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container .vertical-hr-bold {
+  border-left: solid 3px #eceeef;
+}
+/* line 1762, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container .panel-collapse .lesson:last-child hr {
+  border: none;
+}
+/* line 1765, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container .panel-collapse .lesson {
+  transition: all 0.5s ease;
+  color: black;
+}
+/* line 1769, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container .panel-collapse .lesson:hover {
+  background: #f7f7f9;
+}
+/* line 1772, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container .empty-state {
+  padding: 10em;
+  text-align: center;
+}
+/* line 1776, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container .team-name .fa {
+  color: #ababab;
+  margin-left: 7px;
+  font-size: 18px;
+}
+/* line 1781, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container .bootstrap-select.btn-group .dropdown-menu li:hover {
+  background: #f5f5f5;
+}
+/* line 1784, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container .bootstrap-select.btn-group .dropdown-menu li a {
+  color: #818a91;
+  margin: 11px;
+  line-height: 2;
+}
+/* line 1789, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container .bootstrap-select .btn.dropdown-toggle.btn-default {
+  background: #fff;
+  border: #ccc solid 1px;
+}
+/* line 1793, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container .team-options,
+.hq_container .hidden {
+  display: none;
+}
+/* line 1797, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container .team-name {
+  line-height: 2em;
+}
+/* line 1800, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container .team-name:hover .team-options {
+  display: inline-block;
+  margin-left: 7px;
+  font-size: 18px;
+}
+/* line 1805, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container .draggable-hover {
+  content: "Drop Here";
+  background: #eceeef;
+}
+/* line 1809, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container .team-row {
+  min-height: 100px;
+}
+/* line 1812, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container .navbar-light {
+  background: #fff;
+}
+/* line 1815, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container .avatar {
+  max-width: 3em;
+  width: 3em;
+  border-radius: 50%;
+}
+/* line 1821, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container .user-data table {
+  margin-top: 25px;
+}
+/* line 1825, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container .text-center {
+  text-align: center;
+}
+/* line 1828, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container .btn-link {
+  font-weight: normal;
+  color: #8aba49;
+  border-radius: 0;
+}
+/* line 1833, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container .navbar-full {
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+/* line 1837, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container section {
+  margin: 3em 0;
+}
+/* line 1840, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container .sidebar-user {
+  background: #393F50;
+  color: #F8F8F8;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1000;
+  display: block;
+  overflow-x: hidden;
+  overflow-y: auto;
+  padding: 0px;
+  width: 6em;
+}
+/* line 1853, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container .sidebar-user .icon-menu {
+  width: 100%;
+  text-align: center;
+  margin: 1.5em 0;
+  color: #F8F8F8;
+}
+/* line 1858, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container .sidebar-user .icon-menu a {
+  text-decoration: none;
+  color: #F8F8F8;
+}
+/* line 1862, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container .sidebar-user .icon-menu i {
+  font-size: 1.7em;
+  display: block;
+  margin-bottom: 5px;
+  color: #F8F8F8;
+}
+/* line 1870, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container .container-fluid .row {
+  position: relative;
+}
+/* line 1873, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container .sidebar {
+  background: #393F50;
+  color: #F8F8F8;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1000;
+  display: block;
+  overflow-x: hidden;
+  overflow-y: auto;
+  padding: 0px;
+  max-width: 15em;
+  min-width: 175px;
+  height: 100%;
+  margin-top: 50px;
+  position: fixed;
+}
+/* line 1891, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container .sidebar-nav {
+  margin: 2em 0;
+}
+/* line 1893, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container .sidebar-nav button {
+  margin-left: 1em;
+  margin-right: 1em;
+}
+/* line 1899, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container .sidebar .progress-section {
+  padding: 0 1em;
+  margin-top: 2em;
+  margin-bottom: 1em;
+  color: #71B22A;
+}
+/* line 1906, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container .sidebar .sidebar-nav .nav-item {
+  border-bottom: #545F72 solid 1px;
+  margin: 0px;
+  padding: 10px 0;
+  font-size: 15px;
+}
+/* line 1911, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container .sidebar .sidebar-nav .nav-item .nav-link {
+  padding-left: 1em;
+  padding-right: 1em;
+  color: #9EA1A6;
+}
+/* line 1917, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container .sidebar .sidebar-nav .nav-item:last-child {
+  border-bottom: none;
+}
+/* line 1920, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container .sidebar .sidebar-nav .nav-item:hover {
+  background: rgba(0, 0, 0, 0.21);
+}
+/* line 1923, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container .sidebar .sidebar-nav .nav-item:active {
+  background: rgba(0, 0, 0, 0.21);
+}
+/* line 1926, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container .sidebar .sidebar-nav .add-team-btn {
+  padding: 0 1em;
+  margin-top: 2em;
+}
+/* line 1936, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container #wrapper {
+  padding-left: 275px;
+  position: relative;
+  min-height: 100%;
+}
+@media (min-width: 768px) {
+  /* line 1942, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+  .hq_container #sidebar-wrapper {
+    width: 250px;
+  }
+}
+/* line 1946, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container .team_unselected {
+  background: none;
+}
+/* line 1949, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container .team_selected {
+  color: #F8F8F8 !important;
+  background: rgba(0, 0, 0, 0.21);
+}
+/* line 1952, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container .team_selected .fa-check-circle-o {
+  color: #8aba49;
+}
+/* line 1956, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container .border-dashed {
+  border-style: dashed;
+}
+/* line 1964, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container .add-team-btn {
+  margin: 2em 1em;
+}
+/* line 1967, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container .avatar-card {
+  border-radius: 50%;
+  float: left;
+  margin: 8px;
+  margin-top: 1em;
+}
+/* line 1973, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container .avatar-details {
+  padding: 1em 0;
+}
+/* line 1976, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container .user-card.portlet {
+  position: relative;
+  transition: all;
+  -webkit-transition: all;
+}
+/* line 1981, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container #add-user-button {
+  background: none;
+  border: none;
+}
+/* line 1984, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container #add-user-button .btn {
+  height: 90px;
+  border-style: dashed;
+  border-width: 2px;
+  border-color: #D8D8D8;
+  padding: 1.7em;
+}
+/* line 1992, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container .progress {
+  display: initial;
+}
+/* line 1995, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container .child-modal-container {
+  display: -webkit-inline-box;
+}
+/* line 1998, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container .child-modal-container:hover {
+  color: #818a91;
+  cursor: pointer;
+}
+/* line 2002, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container .card-text a small {
+  display: inline-block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 15em;
+}
+/* line 2009, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container .main .user-card {
+  background-color: #fff;
+  border: 1px solid #e5e5e5;
+  border-radius: 0.2rem;
+  max-width: 275px;
+  float: left;
+  width: 275px;
+  height: 90px;
+  margin: 5px 10px;
+}
+/* line 2019, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container .main #user,
+.hq_container .main #pendinguser {
+  cursor: -webkit-grab;
+}
+/* line 2023, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container .main .user-card:hover .fa-times {
+  display: block;
+}
+/* line 2026, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container .main .user-card .fa-times {
+  display: none;
+}
+/* line 2030, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container .main .user-card#manager-card .avatar-details .fa {
+  position: absolute;
+  left: 14.5em;
+  top: 0.8em;
+  color: #ababab;
+  font-size: 18px;
+}
+/* line 2041, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container .main .user-card#user .avatar-details .fa,
+.hq_container .main .user-card#pendinguser .avatar-details .fa {
+  position: absolute;
+  left: 14em;
+  bottom: 66px;
+  color: #ababab;
+  font-size: 18px;
+}
+/* line 2050, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container .main .row {
+  margin-bottom: 1em;
+}
+/* line 2055, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container .container-fluid .row {
+  position: relative;
+}
+/* line 2059, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container #manager-card .card-text:after {
+  content: "Manager";
+  font-size: 10px;
+  background: #17B89D;
+  color: white;
+  padding: 0 6px;
+  font-weight: 500;
+  float: right;
+  margin-bottom: 7px;
+}
+/* line 2069, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container #manager-card {
+  border-left: solid #17B89D 4px;
+  cursor: pointer;
+}
+/* line 2073, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container #pendinguser {
+  border-left: solid #F47521 4px;
+}
+/* line 2076, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container #pendinguser .card-text:after {
+  content: "Pending";
+  font-size: 10px;
+  background: #F47521;
+  color: white;
+  padding: 0 6px;
+  font-weight: 500;
+  float: right;
+  margin-bottom: 7px;
+}
+/* line 2086, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container .btn-success-outline:hover {
+  color: #F8F8F8;
+  border-color: rgba(92, 184, 92, 0.31);
+  background: rgba(92, 184, 92, 0.31);
+}
+/* line 2091, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container .btn-secondary-outline:hover,
+.hq_container .btn-secondary-outline:link,
+.hq_container .btn-secondary-outline:active {
+  color: #393F50 !important;
+}
+/* line 2097, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container .user-course #course-library .fa-stack {
+  color: #818a91;
+}
+/* line 2100, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container .user-course .card-block {
+  min-height: 11em;
+}
+/* line 2103, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container .user-course #share .fa-stack {
+  transition: all .2s ease-in-out;
+}
+/* line 2106, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container .user-course #share .fa-stack:hover {
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -o-transform: scale(1.2);
+}
+/* line 2113, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container .user-course #share .fa-stack:before {
+  display: block;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.12), 0 2px 4px rgba(0, 0, 0, 0.24);
+}
+/* line 2120, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container .user-course .card {
+  transition: background-color 0.5s ease;
+  margin-bottom: 2em;
+}
+/* line 2123, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container .user-course .card .progress {
+  margin-bottom: 0px;
+}
+/* line 2126, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container .user-course .card .card-img-top {
+  height: 11em;
+  position: relative;
+}
+/* line 2130, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container .user-course .card .card-text {
+  font-size: 13px;
+  font-weight: lighter;
+  overflow: hidden;
+  display: -webkit-box;
+  text-overflow: ellipsis;
+  -o-text-overflow: ellipsis;
+  -ms-text-overflow: ellipsis;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  display: block;
+  display: -webkit-box;
+  margin: 0 auto;
+  -webkit-box-orient: vertical;
+  margin-bottom: 6px;
+}
+/* line 2147, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container .user-course .card .card-footer {
+  background-color: #E5F7D3;
+  text-align: center;
+}
+/* line 2151, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container .user-course .card .card-text.details {
+  font-size: 10px;
+}
+/* line 2154, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container .user-course .card .share-btn {
+  position: relative;
+}
+/* line 2156, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container .user-course .card .share-btn #share {
+  position: absolute;
+  right: 7px;
+  top: -24px;
+}
+/* line 2164, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container .container-md {
+  max-width: 720px;
+}
+/* line 2167, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container #accordion.media-card:hover {
+  box-shadow: rgba(0, 0, 0, 0.6) 2px 6px 20px 0px;
+  transition: box-shadow 0.3s ease-in-out;
+}
+/* line 2171, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container .media-card {
+  background: #fff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  border-radius: 0.2rem;
+  margin-bottom: 3em;
+  padding: 2em 0;
+}
+/* line 2177, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container .media-card #border-top {
+  border-top-left-radius: 0.2rem;
+  border-top-right-radius: 0.2rem;
+  border-top: solid #92509F 4px;
+  cursor: pointer;
+}
+/* line 2183, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container .media-card .media-object {
+  width: 175px;
+}
+/* line 2187, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container #accordion .card {
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+}
+/* line 2191, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container .media-body {
+  padding: 14px;
+}
+/* line 2193, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container .media-body p {
+  font-size: 14px;
+  font-weight: lighter;
+}
+/* line 2198, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container .project-files {
+  padding: 0px;
+}
+/* line 2200, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container .project-files li {
+  list-style: none;
+  font-size: 14px;
+  margin-bottom: 4px;
+}
+/* line 2205, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container .project-files a {
+  color: #55595c;
+}
+/* line 2208, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container .project-files a[href$=".pdf"]:before {
+  content: "\f1c1";
+  color: #55595c;
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  margin-right: 5px;
+}
+/* line 2218, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container .project-files a[href$=".docx"]:before {
+  content: "\f1c4";
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  color: #55595c;
+  margin-right: 5px;
+}
+/* line 2228, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container .project-files a[href$=".exce"]:before {
+  content: "\f1c3";
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  color: #55595c;
+  margin-right: 5px;
+}
+/* line 2240, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container .progress-bar a {
+  font-size: 12px;
+  width: 2.5em;
+  height: 2.5em;
+  border-radius: 50%;
+  position: absolute;
+  text-align: center;
+  color: #F8F8F8;
+  top: -11px;
+  line-height: 2em;
+  left: -27px;
+}
+/* line 2251, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container .progress-bar a :hover {
+  text-transform: none;
+}
+/* line 2256, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container #completed {
+  background: #8aba49;
+  border: #8aba49 solid;
+  -webkit-box-shadow: inset 0px 0px 0px 3px #F8F8F8;
+  -moz-box-shadow: inset 0px 0px 0px 3px #F8F8F8;
+  box-shadow: inset 0px 0px 0px 3px #F8F8F8;
+}
+/* line 2263, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container #current {
+  background: #5bc0de;
+  border: #5bc0de solid;
+}
+/* line 2267, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container #not-started {
+  background: #818a91;
+  border: #818a91 solid;
+}
+/* line 2271, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container .col-md-3:last-child .progress-bar:after {
+  content: "\f046";
+  font: normal normal normal 14px/1 FontAwesome;
+  width: 30px;
+  height: 30px;
+  background: #818a91;
+  border-radius: 50%;
+  position: absolute;
+  text-align: center;
+  color: #F8F8F8;
+  top: -11px;
+  line-height: 30px;
+  right: -6px;
+  font-size: 16px;
+}
+/* line 2286, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container .arrow-button-left {
+  text-decoration: none;
+  display: inline-block;
+  color: #F8F8F8;
+  height: 3em;
+  line-height: 3em;
+  cursor: pointer;
+  border: none;
+  background: #9EA1A6;
+  padding: 0 15px;
+  position: relative;
+  margin-right: 14px;
+  font-size: 12px;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+  transition: all 0.5s ease;
+}
+/* line 2303, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container .arrow-button-left:hover {
+  color: #F8F8F8;
+  background: #818a91;
+}
+/* line 2306, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container .arrow-button-left:hover:before {
+  border-color: transparent transparent transparent #818a91;
+}
+/* line 2310, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container .arrow-button-left:before {
+  content: '';
+  display: inline-block;
+  position: absolute;
+  right: -15px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 18px 0 18px 15px;
+  border-color: transparent transparent transparent #9EA1A6;
+  border-radius: 2px;
+  transition: all 0.5s ease;
+}
+/* line 2324, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container .arrow-button-right {
+  text-decoration: none;
+  display: inline-block;
+  color: #F8F8F8;
+  height: 3em;
+  line-height: 3em;
+  cursor: pointer;
+  border: none;
+  background: #9EA1A6;
+  padding: 0 15px;
+  position: relative;
+  margin-left: 14px;
+  font-size: 12px;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  transition: all 0.5s ease;
+}
+/* line 2341, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container .arrow-button-right:hover {
+  color: #F8F8F8;
+  background: #818a91;
+}
+/* line 2344, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container .arrow-button-right:hover:before {
+  border-color: transparent #818a91 transparent transparent;
+}
+/* line 2348, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container .arrow-button-right:before {
+  content: '';
+  display: inline-block;
+  position: absolute;
+  left: -15px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 18px 15px 18px 0;
+  border-color: transparent #9EA1A6 transparent transparent;
+  border-radius: 2px;
+  transition: all 0.5s ease;
+}
+/* line 2363, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container .progress-bar {
+  position: relative;
+  background: #eceeef;
+  border-radius: 3px;
+  width: 100%;
+  display: block;
+  height: 10px;
+  margin: 1em 0 0 0;
+}
+/* line 2371, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container .progress-bar span {
+  position: absolute;
+  background: #8aba49;
+  height: 10px;
+}
+/* line 2377, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container .quiz-score {
+  width: 8em;
+  height: 8em;
+  border-radius: 50%;
+  line-height: 3em;
+  color: #F8F8F8;
+  border: solid #eceeef 3px;
+  margin: 0 auto;
+  -webkit-box-shadow: inset 0px 0px 0px 4px #F8F8F8;
+  -moz-box-shadow: inset 0px 0px 0px 4px #F8F8F8;
+  box-shadow: inset 0px 0px 0px 4px #F8F8F8;
+}
+/* line 2389, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container .quiz-score .h1 {
+  line-height: 3em;
+}
+/* line 2393, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container #fail {
+  background: #d9534f;
+}
+/* line 2396, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container #pass {
+  background: #f0ad4e;
+}
+/* line 2399, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container #success {
+  background: #5cb85c;
+}
+/* line 2403, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container .answers label {
+  width: 100%;
+  padding: .55em;
+}
+/* line 2407, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container .answers .radio.form-control {
+  background: #f7f7f9;
+}
+/* line 2411, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container .clear {
+  clear: both;
+}
+/* line 2414, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container .dropdown-menu:before {
+  content: "";
+  border-bottom: 10px solid #fff;
+  border-right: 10px solid transparent;
+  border-left: 10px solid transparent;
+  position: absolute;
+  top: -10px;
+  right: 16px;
+  z-index: 10;
+}
+/* line 2424, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container .dropdown-menu:after {
+  content: "";
+  border-bottom: 12px solid #ccc;
+  border-right: 12px solid transparent;
+  border-left: 12px solid transparent;
+  position: absolute;
+  top: -12px;
+  right: 14px;
+  z-index: 9;
+}
+/* line 2434, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container .flex-parent {
+  display: flex;
+}
+/* line 2437, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container .flex-child {
+  flex: 1;
+}
+/* line 2440, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container .text-muted-light {
+  color: #9B9B9B;
+}
+/* line 2443, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container .assignment-percentage .text-muted.small.gray-lighter {
+  font-size: 11px;
+  color: #818a91;
+  line-height: 1;
+}
+/* line 2448, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container .cursor-hand {
+  cursor: pointer;
+}
+/* line 2452, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container .main-nav .second {
+  background-color: #333;
+  color: #fff;
+}
+/* line 2456, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container #main-nav .navbar-nav > li > a:before {
+  content: ' ';
+  border-left: solid 1px rgba(255, 255, 255, 0.25);
+  position: absolute;
+  top: 30px;
+  bottom: 30px;
+  left: 0px;
+}
+/* line 2464, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container .lab-logo, .hq_container .hq-logo {
+  max-width: 2.5em !important;
+  opacity: 1;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+/* line 2470, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container #main-nav .secondary-nav .navbar-nav > li > a {
+  height: 12px !important;
+}
+/* line 2473, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container #main-nav .navbar-nav > li > a {
+  position: relative;
+  padding: 0px;
+}
+/* line 2477, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container #main-nav .navbar-nav > li > a {
+  color: #fff;
+  font-size: 14px;
+  position: relative;
+  height: 100px;
+}
+/* line 2483, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container .secondary-nav li {
+  border-right: solid 1px #666;
+  padding-right: 7px;
+  margin-left: 6px;
+}
+/* line 2488, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container .secondary-nav li a {
+  font-size: 12px !important;
+  color: #666 !important;
+  line-height: inherit !important;
+}
+/* line 2493, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container .secondary-nav li:last-child {
+  border: none;
+}
+/* line 2496, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container .secondary-nav {
+  background: #F4F4F4;
+  height: 3em;
+}
+/* line 2500, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container .nav-inline .nav-item + .nav-item, .hq_container .nav-inline .nav-link + .nav-link {
+  margin-left: 0rem;
+}
+/* line 2504, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container .avatar-circle {
+  width: 50px;
+  height: 50px;
+  background-color: #393F50;
+  text-align: center;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+}
+/* line 2514, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container .initials {
+  position: relative;
+  top: 1px;
+  /* 25% of parent */
+  font-size: 22px;
+  /* 50% of parent */
+  line-height: 50px;
+  /* 50% of parent */
+  color: #fff;
+}
+/* line 2522, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container .card-header,
+.hq_container .card-footer {
+  background: #fff;
+}
+/* line 2526, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container .nav.flex-column .nav-link {
+  display: block;
+  padding: .5em 1em;
+}
+/* line 2530, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container .nav.flex-column .nav-link {
+  color: #4A4A4A;
+}
+/* line 2533, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container .nav.flex-column .nav-link:hover {
+  color: #8aba49;
+}
+/* line 2536, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container .nav.flex-column .nav-link.active {
+  color: #8aba49;
+  font-weight: bold;
+}
+/* line 2540, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container .rounded-circle {
+  border-radius: 50%;
+}
+/* line 2543, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container .dashboard-badge {
+  width: 100%;
+}
+/* line 2548, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container #import_item_template .table td,
+.hq_container #import_item_template .table th {
+  padding: .75rem;
+}
+/* line 2553, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container .pointer {
+  cursor: pointer;
+}
+/* line 2556, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container .note-link:hover {
+  text-decoration: none;
+}
+/* line 2560, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container .note-link {
+  color: black;
+}
+/* line 2562, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container .note-link span {
+  font-size: 24px;
+}
+/* line 2566, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container .note-link:hover {
+  color: black;
+}
+/* line 2569, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container .note-link p {
+  margin-bottom: 0;
+}
+/* line 2572, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container .private-note-span {
+  margin: 0 5px 0 10px;
+}
+/* line 2575, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container #create_note_button {
+  margin-right: 34px;
+  cursor: pointer;
+}
+/* line 2579, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container .edit-hover {
+  font-size: 1rem;
+  visibility: hidden;
+}
+/* line 2583, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container .delete-btn {
+  visibility: hidden;
+}
+/* line 2586, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container .edit-btn {
+  visibility: hidden;
+}
+/* line 2589, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container .panel-collapse .lesson:hover .delete-btn {
+  visibility: visible;
+}
+/* line 2592, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container .panel-collapse .lesson:hover .edit-btn {
+  visibility: visible;
+}
+/* line 2595, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container .block-hover:hover {
+  background: #f7f7f9;
+}
+/* line 2598, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container .block-hover:hover .edit-hover {
+  visibility: visible;
+}
+/* line 2601, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container .fa-play {
+  left: 2px !important;
+}
+/* line 2604, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container .small-note {
+  margin-bottom: 0;
+}
+/* line 2607, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container .add-button, .hq_container .update-button, .hq_container .delete-button {
+  display: none;
+}
+/* line 2610, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container .selectpicker-option {
+  display: block;
+  margin: 0 11px !important;
+}
+/* line 2614, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container .bootstrap-select.btn-group .dropdown-menu li:last-child {
+  margin-bottom: 26px;
+}
+/* line 2619, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container .initials-circle {
+  margin: 0;
+  display: inline-block;
+  width: 2em;
+  height: 2em;
+  vertical-align: middle;
+}
+/* line 2626, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.hq_container .nav-initials {
+  position: relative;
+  line-height: 50px;
+  color: #fff;
+  top: -8px;
+  font-size: 15px;
+}
+
+/* line 2636, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/application.scss */
+.g-recaptcha {
+  margin-top: 1em;
+}

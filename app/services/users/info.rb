@@ -7,6 +7,7 @@ module Users
 
     #sanitize topics before save to remove excess punctuation
     def self.get_topics(user: nil)
+      begin
         site = HTTParty.get(user.website_url)
         parse_page = Nokogiri::HTML(site)
         @header1 = parse_page.css("h1")
@@ -14,6 +15,9 @@ module Users
         @header3 = parse_page.css("h3")
         user.topics = get_headers
         user.save!
+      rescue
+        user.update! topics: nil
+      end
     end
 
     def self.get_headers

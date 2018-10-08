@@ -1,0 +1,610 @@
+/* line 1, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/managers.scss */
+.hq_container {
+  /* entire container, keeps perspective */
+  /* flip the pane when hovered */
+  /* flip speed goes here */
+  /* hide back of pane during swap */
+  /* front pane, placed above back */
+  /* back, initially hidden pane */
+  /*-----------Label-------------*/
+  /*-----------Input checkbox-------------*/
+  /*-----------Animation-------------*/
+}
+/* line 2, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/managers.scss */
+.hq_container .assignment-percentage {
+  position: relative;
+  font-size: 24px;
+  bottom: 80px;
+  width: 100px;
+}
+/* line 8, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/managers.scss */
+.hq_container .back .assignment-percentage {
+  position: relative;
+  font-size: 24px;
+  width: 100px;
+  top: 12px;
+  right: 12px;
+}
+/* line 15, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/managers.scss */
+.hq_container .user-graphs {
+  background: #fff !important;
+  background-color: none !important;
+  border-top: none !important;
+  box-shadow: inset 0 0 10px #7D7D7D;
+  -moz-box-shadow: inset 0 8px 8px -8px #696868, inset 0 -8px 8px -8px #696868;
+  -webkit-box-shadow: inset 0 8px 8px -8px #696868, inset 0 -8px 8px -8px #696868;
+  box-shadow: inset 0 8px 8px -8px #B9B9B9, inset 0 -8px 8px -8px #B9B9B9;
+}
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-moz-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+/* line 28, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/managers.scss */
+.hq_container .accordian-body.collapse.show {
+  display: table-row;
+}
+/* line 31, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/managers.scss */
+.hq_container .collapse.show .user-graphs,
+.hq_container .collapsing .user-graphs {
+  padding: 2em 3px;
+}
+/* line 35, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/managers.scss */
+.hq_container .collapse {
+  display: none;
+}
+/* line 38, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/managers.scss */
+.hq_container .collapsing {
+  -webkit-transition: height .35s ease;
+  -o-transition: height .35s ease;
+  transition: height .35s ease;
+}
+/* line 43, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/managers.scss */
+.hq_container .collapse.show .assignment_container, .hq_container .collapsing .assignment_container {
+  float: left;
+}
+/* line 47, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/managers.scss */
+.hq_container .avatar img {
+  border-radius: 50%;
+  width: 3.5em;
+  height: auto;
+}
+/* line 52, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/managers.scss */
+.hq_container table p {
+  color: #000;
+  background: none;
+}
+/* line 56, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/managers.scss */
+.hq_container .checkbox {
+  margin-top: 0px !important;
+}
+/* line 59, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/managers.scss */
+.hq_container .checkbox input[type="checkbox"] {
+  margin-left: 0px;
+}
+/* line 62, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/managers.scss */
+.hq_container .user-data input[type="checkbox"] {
+  width: 100%;
+  height: 2em;
+  top: 16%;
+  left: 0;
+  margin-top: -25px;
+  position: absolute;
+  cursor: pointer;
+  opacity: 0;
+  display: inline-block;
+  vertical-align: middle;
+  z-index: 100;
+}
+/* line 75, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/managers.scss */
+.hq_container th.checkbox {
+  width: 2em;
+  margin-left: 1em;
+}
+/* line 80, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/managers.scss */
+.hq_container .table th, .hq_container .table td {
+  vertical-align: middle !important;
+}
+/* line 84, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/managers.scss */
+.hq_container .user-graphs .assignment-title {
+  font-size: 12px;
+  font-weight: 500px !important;
+  height: 28px;
+  display: block;
+  line-height: inherit;
+}
+/* line 91, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/managers.scss */
+.hq_container .user-graphs .graph {
+  height: 100px;
+  text-align: center;
+  width: 100px;
+  margin: 0 auto;
+}
+/* line 97, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/managers.scss */
+.hq_container .user-graphs .row {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  display: block;
+}
+/* line 102, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/managers.scss */
+.hq_container .assignment-percentage .text-muted.small {
+  font-size: 12px;
+  color: #D8D8D8;
+  line-height: 1;
+}
+/* line 107, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/managers.scss */
+.hq_container .graph.flip-container .front {
+  transition: .5s ease;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+/* line 113, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/managers.scss */
+.hq_container .graph.flip-container .front:hover {
+  background: #ececec;
+}
+/* line 117, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/managers.scss */
+.hq_container .flip-container {
+  /*perspective*/
+  -webkit-perspective: 1000;
+  -moz-perspective: 1000;
+  -ms-perspective: 1000;
+  -o-perspective: 1000;
+  perspective: 1000;
+}
+/* line 126, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/managers.scss */
+.hq_container .flipped {
+  /*transform*/
+  -webkit-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
+  -ms-transform: rotateY(180deg);
+  -o-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+}
+/* line 134, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/managers.scss */
+.hq_container .flip-container,
+.hq_container .front,
+.hq_container .back {
+  width: 50px;
+  height: 50px;
+}
+/* line 141, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/managers.scss */
+.hq_container .flipper {
+  /*transition*/
+  -webkit-transition: 0.6s;
+  -moz-transition: 0.6s;
+  -o-transition: 0.6s;
+  transition: 0.6s;
+  /*transform-style*/
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+  -o-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  position: relative;
+  cursor: pointer;
+  width: 100px;
+}
+/* line 158, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/managers.scss */
+.hq_container .front, .hq_container .back {
+  /*backface-visibility*/
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  -o-backface-visibility: hidden;
+  backface-visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+/* line 170, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/managers.scss */
+.hq_container .front {
+  z-index: 2;
+}
+/* line 174, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/managers.scss */
+.hq_container .back {
+  /*transform*/
+  width: 100px;
+  height: 100px;
+  background: #fff;
+  border-radius: 50%;
+  border: solid 12px #1CAD4C;
+  -webkit-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
+  -ms-transform: rotateY(180deg);
+  -o-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+}
+/* line 187, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/managers.scss */
+.hq_container .back:hover {
+  background: #ECECEC;
+}
+/* line 190, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/managers.scss */
+.hq_container .back p {
+  color: #fff;
+}
+/* line 194, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/managers.scss */
+.hq_container label {
+  cursor: pointer;
+  color: #666;
+}
+/* line 199, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/managers.scss */
+.hq_container input[type="checkbox"] + .span:before {
+  content: "\f096";
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  width: 1em;
+  margin-right: 5px;
+  font-family: FontAwesome;
+  display: inline-block;
+  font-size: 1.5em;
+  animation: mymove2 200ms ease-out;
+  color: #6D6D6D;
+  margin-top: 5px;
+}
+/* line 215, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/managers.scss */
+.hq_container input[type="checkbox"]:checked + .span:before {
+  content: "\f14a";
+  animation: mymove 200ms ease-in-out;
+  -webkit-animation: mymove 150ms ease-in-out;
+  color: #8FC400;
+}
+@keyframes mymove {
+  0% {
+    transform: scale(0);
+  }
+  1% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(100%);
+  }
+}
+@-webkit-keyframes mymove {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(100% u);
+  }
+}
+@keyframes mymove2 {
+  from {
+    transform: scale(100%);
+  }
+  to {
+    transform: scale(0);
+  }
+}
+/* line 250, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/managers.scss */
+.hq_container .panel-info {
+  border-color: #8FC400;
+  transition: border-color 1s ease;
+}
+/* line 254, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/managers.scss */
+.hq_container .panel-info > .panel-heading {
+  background-color: rgba(138, 186, 73, 0.17) !important;
+  color: #333;
+}
+/* line 258, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/managers.scss */
+.hq_container .panel-heading {
+  padding: 0 1em;
+}
+/* line 261, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/managers.scss */
+.hq_container .cmn-toggle {
+  position: absolute;
+  margin-left: -9999px;
+  visibility: hidden;
+}
+/* line 266, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/managers.scss */
+.hq_container .cmn-toggle + label {
+  display: block;
+  position: relative;
+  cursor: pointer;
+  outline: none;
+  user-select: none;
+}
+/* line 273, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/managers.scss */
+.hq_container input.cmn-toggle-round-flat + label {
+  padding: 2px;
+  width: 4em;
+  height: 2em;
+  background-color: #dddddd;
+  border-radius: 60px;
+  transition: background 0.4s;
+}
+/* line 281, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/managers.scss */
+.hq_container input.cmn-toggle-round-flat + label:before,
+.hq_container input.cmn-toggle-round-flat + label:after {
+  display: block;
+  position: absolute;
+  content: "";
+}
+/* line 287, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/managers.scss */
+.hq_container input.cmn-toggle-round-flat + label:before {
+  top: 2px;
+  left: 2px;
+  bottom: 2px;
+  right: 2px;
+  background-color: #fff;
+  border-radius: 60px;
+  transition: background 0.4s;
+}
+/* line 296, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/managers.scss */
+.hq_container input.cmn-toggle-round-flat + label:after {
+  top: 4px;
+  left: 4px;
+  bottom: 4px;
+  width: 25px;
+  background-color: #dddddd;
+  border-radius: 52px;
+  transition: margin 0.4s, background 0.4s;
+}
+/* line 305, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/managers.scss */
+.hq_container input.cmn-toggle-round-flat:checked + label {
+  background-color: #71B22A;
+}
+/* line 308, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/managers.scss */
+.hq_container input.cmn-toggle-round-flat:checked + label:after {
+  margin-left: 1.9em;
+  background-color: #71B22A;
+}
+/* line 312, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/managers.scss */
+.hq_container .page-template-manager {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  background: #f6f6f6;
+}
+/* line 317, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/managers.scss */
+.hq_container .img-rounded {
+  border-radius: .3rem;
+}
+/* line 320, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/managers.scss */
+.hq_container .img-thumbnail {
+  display: inline-block;
+  max-width: 100%;
+  height: auto;
+  padding: .25rem;
+  line-height: 1.5;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: .25rem;
+  -webkit-transition: all .2s ease-in-out;
+  -o-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+@media (min-width: 768px) {
+  /* line 334, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/managers.scss */
+  .hq_container .col-md-1-5 {
+    width: 12.4%;
+  }
+}
+/* line 338, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/managers.scss */
+.hq_container .table thead th {
+  vertical-align: bottom;
+  border-top: none;
+}
+/* line 342, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/managers.scss */
+.hq_container .table > tbody + tbody {
+  border-top: 1px solid #EFF0F1 !important;
+}
+/* line 345, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/managers.scss */
+.hq_container .table .table {
+  background-color: #fff;
+}
+/* line 348, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/managers.scss */
+.hq_container .user-data {
+  background: #fff;
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  margin-bottom: 3em;
+  text-align: center;
+}
+/* line 355, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/managers.scss */
+.hq_container .form-control::-ms-expand {
+  background-color: transparent;
+  border: 0;
+}
+/* line 360, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/managers.scss */
+.hq_container .form-control:focus {
+  border-color: #66afe9;
+  outline: none;
+}
+/* line 365, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/managers.scss */
+.hq_container .form-control::-webkit-input-placeholder {
+  color: #999;
+  opacity: 1;
+}
+/* line 370, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/managers.scss */
+.hq_container .form-control::-moz-placeholder {
+  color: #999;
+  opacity: 1;
+}
+/* line 375, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/managers.scss */
+.hq_container .form-control:-ms-input-placeholder {
+  color: #999;
+  opacity: 1;
+}
+/* line 380, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/managers.scss */
+.hq_container .form-control::placeholder {
+  color: #999;
+  opacity: 1;
+}
+/* line 385, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/managers.scss */
+.hq_container .form-control:disabled, .hq_container .form-control[readonly] {
+  background-color: #eceeef;
+  opacity: 1;
+}
+/* line 390, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/managers.scss */
+.hq_container .form-control:disabled {
+  cursor: not-allowed;
+}
+/* line 394, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/managers.scss */
+.hq_container .form-control-file,
+.hq_container .form-control-range {
+  display: block;
+}
+/* line 399, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/managers.scss */
+.hq_container .form-control-label {
+  padding: .375rem .75rem;
+  margin-bottom: 0;
+}
+/* line 403, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/managers.scss */
+.hq_container .radio,
+.hq_container .checkbox {
+  position: relative;
+  display: block;
+}
+/* line 410, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/managers.scss */
+.hq_container .radio label,
+.hq_container .checkbox label {
+  padding-left: 1.25rem;
+  margin-bottom: 0;
+  font-weight: normal;
+  cursor: pointer;
+}
+/* line 418, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/managers.scss */
+.hq_container .radio label input:only-child,
+.hq_container .checkbox label input:only-child {
+  position: static;
+}
+/* line 423, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/managers.scss */
+.hq_container .radio input[type="radio"],
+.hq_container .radio-inline input[type="radio"],
+.hq_container .checkbox input[type="checkbox"],
+.hq_container .checkbox-inline input[type="checkbox"] {
+  position: absolute;
+  margin-top: .25rem;
+}
+/* line 431, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/managers.scss */
+.hq_container .radio + .radio,
+.hq_container .checkbox + .checkbox {
+  margin-top: -.25rem;
+}
+/* line 436, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/managers.scss */
+.hq_container .radio-inline,
+.hq_container .checkbox-inline {
+  position: relative;
+  display: inline-block;
+  padding-left: 1.25rem;
+  margin-bottom: 0;
+  font-weight: normal;
+  vertical-align: middle;
+  cursor: pointer;
+}
+/* line 447, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/managers.scss */
+.hq_container .radio-inline + .radio-inline,
+.hq_container .checkbox-inline + .checkbox-inline {
+  margin-top: 0;
+  margin-left: .75rem;
+}
+/* line 452, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/managers.scss */
+.hq_container .fa-cog {
+  color: #d8d8d8;
+}
+/* line 455, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/managers.scss */
+.hq_container .fa-cog:hover {
+  color: #8aba49;
+}
+/* line 458, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/managers.scss */
+.hq_container td a {
+  cursor: pointer;
+}
+/* line 461, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/managers.scss */
+.hq_container .whitespace {
+  white-space: nowrap;
+}
+/* line 465, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/managers.scss */
+.hq_container #import_item_template .table td,
+.hq_container #import_item_template .table th {
+  padding: .75rem;
+}
+/* line 470, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/managers.scss */
+.hq_container .page-link {
+  cursor: pointer;
+}
+/* line 473, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/managers.scss */
+.hq_container .current {
+  background-color: #eceeef;
+  cursor: default;
+}
+/* line 477, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/managers.scss */
+.hq_container .disabled {
+  background-color: #eceeef;
+}
+/* line 481, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/managers.scss */
+.hq_container .badge-default {
+  background-color: #F2F0F0;
+  color: #3997D3;
+  padding: 8px 16px;
+  margin-bottom: 5px;
+}
+/* line 488, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/managers.scss */
+.hq_container .badge {
+  display: inline-block;
+  padding: 0.5em 1em;
+  font-size: 75%;
+  line-height: 1;
+  color: #4FAEE1;
+  text-align: center;
+  vertical-align: baseline;
+}
+/* line 497, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/managers.scss */
+.hq_container [type=button] {
+  -webkit-appearance: revert;
+}
+/* line 501, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/managers.scss */
+.hq_container .hidden_checkbox {
+  display: none;
+}
+/* line 504, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/managers.scss */
+.hq_container div {
+  display: block;
+}
+/* line 507, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/managers.scss */
+.hq_container .modal-header {
+  display: block;
+}
+/* line 510, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/managers.scss */
+.hq_container .modal-header::after {
+  display: table;
+  content: "";
+  clear: both;
+}
+/* line 516, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/managers.scss */
+.hq_container button.close {
+  margin-top: -2px;
+  margin-right: 2px;
+}
+/* line 521, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/managers.scss */
+.hq_container .row::after {
+  display: table;
+  content: "";
+  clear: both;
+}
+/* line 526, /Users/sdnorman/DM/ruby-lab/app/assets/stylesheets/managers.scss */
+.hq_container .manager-action {
+  margin-bottom: 25px;
+}
